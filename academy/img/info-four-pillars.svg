@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1000 700" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>What makes it worth something</title>
+  <desc>Four pillars, owned audience, IP you control, recurring revenue, and systems, standing up and holding a roof beam that reads a business you can sell. Below, a bold line: a personality is worth zero dollars the day the trend dies, this is not.</desc>
+
+  <!-- TITLE -->
+  <text x="500" y="86" text-anchor="middle" font-family="Stencil" font-size="42" letter-spacing="2" fill="#EDE7DA">WHAT MAKES IT WORTH SOMETHING</text>
+
+  <!-- scrawl aside, top right -->
+  <text x="892" y="126" text-anchor="middle" font-family="Marker" font-size="23" fill="#E7B24E" transform="rotate(-6 892 126)">build to last</text>
+
+  <!-- ROOF BEAM -->
+  <path d="M52,158 L960,152 L960,214 L52,212 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M46,152 L954,146 L951,206 L49,208 Z" fill="#0a0908" fill-opacity="0.6" stroke="#E7B24E" stroke-width="3" stroke-linejoin="round"/>
+  <text x="500" y="188" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="3" fill="#E7B24E">A BUSINESS YOU CAN SELL</text>
+
+  <!-- load ticks from beam to each pillar -->
+  <path d="M142,209 L143,236" stroke="#E7B24E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M380,209 L379,236" stroke="#E7B24E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M618,209 L619,236" stroke="#E7B24E" stroke-width="5" stroke-linecap="round"/>
+  <path d="M856,209 L855,236" stroke="#E7B24E" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- ============ PILLAR 1 : OWNED AUDIENCE ============ -->
+  <g>
+    <path d="M66,243 L231,243 L231,561 L66,561 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M52,218 L233,219 L231,242 L54,241 Z" fill="#0a0908" fill-opacity="0.6" stroke="#E7B24E" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M60,240 L225,242 L224,528 L61,526 Z" fill="#0a0908" fill-opacity="0.55" stroke="#E7B24E" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M110,252 L110,520 M142,252 L142,520 M174,252 L174,520" stroke="#E7B24E" stroke-width="1" stroke-opacity="0.12"/>
+    <path d="M50,528 L235,527 L237,556 L48,557 Z" fill="#0a0908" fill-opacity="0.6" stroke="#E7B24E" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="142" y="284" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="2" fill="#E7B24E">01</text>
+    <text x="142" text-anchor="middle" font-family="Stencil" font-size="24" letter-spacing="1" fill="#EDE7DA"><tspan x="142" y="330">OWNED</tspan><tspan x="142" y="357">AUDIENCE</tspan></text>
+    <path d="M108,376 L176,376" stroke="#E7B24E" stroke-width="3" stroke-linecap="round"/>
+    <text x="142" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a"><tspan x="142" y="408">your email /</tspan><tspan x="142" y="430">SMS list</tspan></text>
+  </g>
+
+  <!-- ============ PILLAR 2 : IP YOU CONTROL ============ -->
+  <g>
+    <path d="M304,243 L469,243 L469,561 L304,561 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M290,218 L471,219 L469,242 L292,241 Z" fill="#0a0908" fill-opacity="0.6" stroke="#E7B24E" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M298,240 L463,242 L462,528 L299,526 Z" fill="#0a0908" fill-opacity="0.55" stroke="#E7B24E" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M348,252 L348,520 M380,252 L380,520 M412,252 L412,520" stroke="#E7B24E" stroke-width="1" stroke-opacity="0.12"/>
+    <path d="M288,528 L473,527 L475,556 L286,557 Z" fill="#0a0908" fill-opacity="0.6" stroke="#E7B24E" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="380" y="284" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="2" fill="#E7B24E">02</text>
+    <text x="380" text-anchor="middle" font-family="Stencil" font-size="24" letter-spacing="1" fill="#EDE7DA"><tspan x="380" y="330">IP YOU</tspan><tspan x="380" y="357">CONTROL</tspan></text>
+    <path d="M346,376 L414,376" stroke="#E7B24E" stroke-width="3" stroke-linecap="round"/>
+    <text x="380" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a"><tspan x="380" y="405">masters, catalog,</tspan><tspan x="380" y="427">the class,</tspan><tspan x="380" y="449">the brand</tspan></text>
+  </g>
+
+  <!-- ============ PILLAR 3 : RECURRING REVENUE ============ -->
+  <g>
+    <path d="M542,243 L707,243 L707,561 L542,561 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M528,218 L709,219 L707,242 L530,241 Z" fill="#0a0908" fill-opacity="0.6" stroke="#E7B24E" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M536,240 L701,242 L700,528 L537,526 Z" fill="#0a0908" fill-opacity="0.55" stroke="#E7B24E" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M586,252 L586,520 M618,252 L618,520 M650,252 L650,520" stroke="#E7B24E" stroke-width="1" stroke-opacity="0.12"/>
+    <path d="M526,528 L711,527 L713,556 L524,557 Z" fill="#0a0908" fill-opacity="0.6" stroke="#E7B24E" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="618" y="284" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="2" fill="#E7B24E">03</text>
+    <text x="618" text-anchor="middle" font-family="Stencil" font-size="24" letter-spacing="1" fill="#EDE7DA"><tspan x="618" y="330">RECURRING</tspan><tspan x="618" y="357">REVENUE</tspan></text>
+    <path d="M584,376 L652,376" stroke="#E7B24E" stroke-width="3" stroke-linecap="round"/>
+    <text x="618" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a"><tspan x="618" y="408">memberships</tspan><tspan x="618" y="430">that renew</tspan></text>
+  </g>
+
+  <!-- ============ PILLAR 4 : SYSTEMS ============ -->
+  <g>
+    <path d="M780,243 L945,243 L945,561 L780,561 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M766,218 L947,219 L945,242 L768,241 Z" fill="#0a0908" fill-opacity="0.6" stroke="#E7B24E" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M774,240 L939,242 L938,528 L775,526 Z" fill="#0a0908" fill-opacity="0.55" stroke="#E7B24E" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M824,252 L824,520 M856,252 L856,520 M888,252 L888,520" stroke="#E7B24E" stroke-width="1" stroke-opacity="0.12"/>
+    <path d="M764,528 L949,527 L951,556 L762,557 Z" fill="#0a0908" fill-opacity="0.6" stroke="#E7B24E" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="856" y="284" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="2" fill="#E7B24E">04</text>
+    <text x="856" y="345" text-anchor="middle" font-family="Stencil" font-size="24" letter-spacing="1" fill="#EDE7DA">SYSTEMS</text>
+    <path d="M822,376 L890,376" stroke="#E7B24E" stroke-width="3" stroke-linecap="round"/>
+    <text x="856" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a"><tspan x="856" y="405">written down,</tspan><tspan x="856" y="427">not stuck</tspan><tspan x="856" y="449">in your head</tspan></text>
+    <text x="856" y="498" text-anchor="middle" font-family="Marker" font-size="17" fill="#E7B24E" transform="rotate(-4 856 498)">yes, even this one</text>
+  </g>
+
+  <!-- BOTTOM LINE -->
+  <text x="500" y="610" text-anchor="middle" font-family="Stencil" font-size="25" letter-spacing="1.5" fill="#EDE7DA">A PERSONALITY IS WORTH $0 THE DAY THE TREND DIES.</text>
+  <text x="500" y="664" text-anchor="middle" font-family="Stencil" font-size="46" letter-spacing="2" fill="#E7B24E">THIS ISN'T.</text>
+  <path d="M414,678 Q500,688 586,676" stroke="#E7B24E" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>

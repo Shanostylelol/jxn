@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1000 650" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Rented versus owned: what the platforms control and what is truly yours</title>
+  <desc>Two columns. On the left, rented: followers, reach, the algorithm, likes, which can be taken away overnight. On the right, owned: your email list, your six sites, your master recordings, and direct fan relationships, which nobody can delete.</desc>
+
+  <!-- TITLE -->
+  <text x="500" y="88" text-anchor="middle" font-family="Stencil" font-size="52" letter-spacing="2">
+    <tspan fill="#9a938a">RENTED</tspan><tspan fill="#EDE7DA" font-size="30"> vs </tspan><tspan fill="#35E06A">OWNED</tspan>
+  </text>
+
+  <!-- VERTICAL MARKER DIVIDER -->
+  <path d="M500 138 Q504 300 499 420 Q502 500 500 566" stroke="#35E06A" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- ===================== LEFT: RENTED (muted, dashed / impermanent) ===================== -->
+  <text x="250" y="184" text-anchor="middle" font-family="Stencil" font-size="34" letter-spacing="3" fill="#9a938a">RENTED</text>
+
+  <g font-family="Body" font-size="19" fill="#9a938a">
+    <rect x="60" y="222" width="380" height="52" rx="6" fill="none" stroke="#9a938a" stroke-width="2.5" stroke-dasharray="8 7"/>
+    <rect x="82" y="242" width="12" height="12" fill="#9a938a"/>
+    <text x="110" y="253">followers</text>
+
+    <rect x="60" y="288" width="380" height="52" rx="6" fill="none" stroke="#9a938a" stroke-width="2.5" stroke-dasharray="8 7"/>
+    <rect x="82" y="308" width="12" height="12" fill="#9a938a"/>
+    <text x="110" y="319">reach</text>
+
+    <rect x="60" y="354" width="380" height="52" rx="6" fill="none" stroke="#9a938a" stroke-width="2.5" stroke-dasharray="8 7"/>
+    <rect x="82" y="374" width="12" height="12" fill="#9a938a"/>
+    <text x="110" y="385">the algorithm</text>
+
+    <rect x="60" y="420" width="380" height="52" rx="6" fill="none" stroke="#9a938a" stroke-width="2.5" stroke-dasharray="8 7"/>
+    <rect x="82" y="440" width="12" height="12" fill="#9a938a"/>
+    <text x="110" y="451">likes</text>
+  </g>
+  <text x="250" y="516" text-anchor="middle" font-family="Marker" font-size="21" fill="#9a938a" transform="rotate(-2 250 516)">can be taken away overnight.</text>
+
+  <!-- ===================== RIGHT: OWNED (accent, solid / permanent) ===================== -->
+  <text x="750" y="184" text-anchor="middle" font-family="Stencil" font-size="34" letter-spacing="3" fill="#35E06A">OWNED</text>
+
+  <g font-family="Body" font-size="19" fill="#EDE7DA">
+    <rect x="566" y="228" width="380" height="52" rx="6" fill="#000000" opacity="0.4"/>
+    <rect x="560" y="222" width="380" height="52" rx="6" fill="rgba(10,9,8,0.5)" stroke="#35E06A" stroke-width="2.5"/>
+    <rect x="582" y="242" width="12" height="12" fill="#35E06A"/>
+    <text x="610" y="253">your email list</text>
+
+    <rect x="566" y="294" width="380" height="52" rx="6" fill="#000000" opacity="0.4"/>
+    <rect x="560" y="288" width="380" height="52" rx="6" fill="rgba(10,9,8,0.5)" stroke="#35E06A" stroke-width="2.5"/>
+    <rect x="582" y="308" width="12" height="12" fill="#35E06A"/>
+    <text x="610" y="319">your six sites</text>
+
+    <rect x="566" y="360" width="380" height="52" rx="6" fill="#000000" opacity="0.4"/>
+    <rect x="560" y="354" width="380" height="52" rx="6" fill="rgba(10,9,8,0.5)" stroke="#35E06A" stroke-width="2.5"/>
+    <rect x="582" y="374" width="12" height="12" fill="#35E06A"/>
+    <text x="610" y="385">your master recordings</text>
+
+    <rect x="566" y="426" width="380" height="52" rx="6" fill="#000000" opacity="0.4"/>
+    <rect x="560" y="420" width="380" height="52" rx="6" fill="rgba(10,9,8,0.5)" stroke="#35E06A" stroke-width="2.5"/>
+    <rect x="582" y="440" width="12" height="12" fill="#35E06A"/>
+    <text x="610" y="451">direct fan relationships</text>
+  </g>
+  <text x="750" y="516" text-anchor="middle" font-family="Marker" font-size="21" fill="#35E06A" transform="rotate(-2 750 516)">nobody can delete this.</text>
+
+  <!-- SCRAWL ASIDE -->
+  <text x="500" y="606" text-anchor="middle" font-family="Marker" font-size="27" fill="#35E06A" transform="rotate(-3 500 606)">build on land you own.</text>
+</svg>

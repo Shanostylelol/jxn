@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1000 720" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>The funnel: from 1.6M followers down to true fans who pay you direct</title>
+  <desc>A four tier funnel. The top tier is 1.6 million followers, rented, the algorithm owns them. Below is The Room, your landing page. Then your owned email and SMS list, yours forever. At the bottom, true fans who pay you direct on EVEN.</desc>
+
+  <!-- TITLE -->
+  <text x="40" y="96" font-family="Stencil" font-size="66" letter-spacing="3" fill="#35E06A">THE FUNNEL</text>
+  <text x="44" y="126" font-family="Body" font-size="17" letter-spacing="1" fill="#9a938a">where attention goes, and who actually owns it</text>
+
+  <!-- Tier 1: 1.6M FOLLOWERS (rented, muted) -->
+  <polygon points="126,150 874,150 802,280 198,280" fill="rgba(10,9,8,0.5)" stroke="#9a938a" stroke-width="2.5"/>
+  <text x="500" y="212" text-anchor="middle" font-family="Stencil" font-size="34" letter-spacing="2" fill="#9a938a">1.6M FOLLOWERS</text>
+  <text x="500" y="244" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a">rented. the algorithm owns them.</text>
+
+  <!-- chevron 1 to 2 -->
+  <path d="M482 284 L500 297 L518 284" stroke="#35E06A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Tier 2: THE ROOM -->
+  <polygon points="209,300 791,300 719,430 281,430" fill="rgba(10,9,8,0.5)" stroke="#EDE7DA" stroke-width="2.5"/>
+  <text x="500" y="362" text-anchor="middle" font-family="Stencil" font-size="32" letter-spacing="2" fill="#EDE7DA">THE ROOM</text>
+  <text x="500" y="394" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a">your landing page. they tap the link.</text>
+
+  <!-- chevron 2 to 3 -->
+  <path d="M482 434 L500 447 L518 434" stroke="#35E06A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Tier 3: EMAIL / SMS LIST (OWNED, accent pop) -->
+  <polygon points="298,452 702,452 636,580 364,580" fill="#000000" opacity="0.4"/>
+  <polygon points="292,450 708,450 642,578 358,578" fill="#35E06A"/>
+  <text x="500" y="510" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="2" fill="#0a0908">EMAIL / SMS LIST</text>
+  <text x="500" y="542" text-anchor="middle" font-family="Body" font-size="16" font-weight="700" fill="#0a0908">OWNED. yours forever.</text>
+
+  <!-- chevron 3 to 4 -->
+  <path d="M482 584 L500 597 L518 584" stroke="#35E06A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Tier 4: TRUE FANS (narrowest) -->
+  <polygon points="369,600 631,600 575,700 425,700" fill="rgba(10,9,8,0.5)" stroke="#35E06A" stroke-width="2.5"/>
+  <text x="500" y="646" text-anchor="middle" font-family="Stencil" font-size="26" letter-spacing="2" fill="#EDE7DA">TRUE FANS</text>
+  <text x="500" y="670" text-anchor="middle" font-family="Body" font-size="15" fill="#9a938a">they pay you direct,</text>
+  <text x="500" y="688" text-anchor="middle" font-family="Body" font-size="15" fill="#9a938a">on EVEN.</text>
+
+  <!-- LEFT bracket: RENTED (muted) -->
+  <path d="M112 168 h-22 v104 h22" stroke="#9a938a" stroke-width="3" fill="none"/>
+  <text x="70" y="220" text-anchor="middle" font-family="Stencil" font-size="18" letter-spacing="3" fill="#9a938a" transform="rotate(-90 70 220)">RENTED</text>
+
+  <!-- RIGHT bracket: OWNED (accent, spans tiers 3 and 4) -->
+  <path d="M744 462 h22 v226 h-22" stroke="#35E06A" stroke-width="3.5" fill="none"/>
+  <text x="790" y="575" text-anchor="middle" font-family="Stencil" font-size="20" letter-spacing="3" fill="#35E06A" transform="rotate(90 790 575)">OWNED</text>
+
+  <!-- SCRAWL ASIDE -->
+  <text x="612" y="376" font-family="Marker" font-size="22" fill="#35E06A" transform="rotate(-6 612 376)">most won't cross.</text>
+  <text x="612" y="404" font-family="Marker" font-size="22" fill="#35E06A" transform="rotate(-6 612 404)">you only need a thin slice.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1000 700" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Map Your Audience</title>
+  <desc>Jackson's 1.6M following is not one audience but four segments: legacy dance fans, fashion industry, new faith and music fans (the real business to build for), and aspiring creators.</desc>
+
+  <!-- grouping panel -->
+  <rect x="24" y="98" width="952" height="522" rx="14" fill="rgba(10,9,8,0.5)"/>
+
+  <!-- TITLE with offset shadow -->
+  <text x="43" y="63" font-family="Stencil" font-size="52" letter-spacing="2" fill="#0f0d0b">MAP YOUR AUDIENCE</text>
+  <text x="40" y="60" font-family="Stencil" font-size="52" letter-spacing="2" fill="#A24BFF">MAP YOUR AUDIENCE</text>
+
+  <!-- top scrawl aside -->
+  <text x="972" y="52" text-anchor="end" font-family="Marker" font-size="21" fill="#A24BFF" transform="rotate(-3 972 52)">1.6M is not one audience. it's four.</text>
+
+  <!-- ============ BLOCK A : LEGACY DANCE FANS (grey-blue) ============ -->
+  <path d="M46,124 L478,119 L481,342 L43,346 Z" fill="#5f7080" fill-opacity="0.14" stroke="#5f7080" stroke-width="3"/>
+  <rect x="66" y="146" width="68" height="68" fill="#5f7080"/>
+  <text x="100" y="200" font-family="Stencil" font-size="54" text-anchor="middle" fill="#0f0d0b">A</text>
+  <text x="150" y="176" font-family="Stencil" font-size="24" letter-spacing="1.5" fill="#EDE7DA">LEGACY DANCE FANS</text>
+  <text x="150" y="202" font-family="Mono" font-size="15" letter-spacing="2" fill="#8ea0af">REACH ~1.6M</text>
+  <text x="68" y="270" font-family="Body" font-size="19" fill="#c9c2b7">Broad, shallow.</text>
+  <text x="68" y="296" font-family="Body" font-size="19" fill="#c9c2b7">Top of the funnel.</text>
+
+  <!-- ============ BLOCK B : FASHION / INDUSTRY (steel) ============ -->
+  <path d="M522,119 L958,124 L955,347 L519,342 Z" fill="#8a97a1" fill-opacity="0.14" stroke="#8a97a1" stroke-width="3"/>
+  <rect x="544" y="146" width="68" height="68" fill="#8a97a1"/>
+  <text x="578" y="200" font-family="Stencil" font-size="54" text-anchor="middle" fill="#0f0d0b">B</text>
+  <text x="628" y="176" font-family="Stencil" font-size="24" letter-spacing="1.5" fill="#EDE7DA">FASHION / INDUSTRY</text>
+  <text x="628" y="202" font-family="Mono" font-size="15" letter-spacing="2" fill="#aab5bd">HIGH VALUE</text>
+  <text x="546" y="270" font-family="Body" font-size="19" fill="#c9c2b7">Small audience, cash now.</text>
+  <text x="546" y="296" font-family="Body" font-size="19" fill="#c9c2b7">(Movement Director.)</text>
+
+  <!-- ============ BLOCK C : NEW FAITH + MUSIC FANS (PURPLE HERO) ============ -->
+  <path d="M44,381 L481,377 L479,607 L41,611 Z" fill="#A24BFF" fill-opacity="0.20" stroke="#A24BFF" stroke-width="4.5"/>
+  <rect x="66" y="404" width="72" height="72" fill="#A24BFF"/>
+  <text x="102" y="461" font-family="Stencil" font-size="56" text-anchor="middle" fill="#0f0d0b">C</text>
+  <text x="154" y="436" font-family="Stencil" font-size="24" letter-spacing="1.2" fill="#EDE7DA">NEW FAITH + MUSIC FANS</text>
+  <text x="154" y="463" font-family="Stencil" font-size="19" letter-spacing="1.5" fill="#A24BFF">THE REAL BUSINESS</text>
+  <text x="68" y="528" font-family="Body" font-size="20" fill="#EDE7DA">Deep. They pay you direct.</text>
+  <text x="68" y="556" font-family="Body" font-size="19" fill="#c9c2b7">This is the one to build.</text>
+
+  <!-- hero scrawl + marker arrow pointing at C -->
+  <text x="150" y="666" font-family="Marker" font-size="30" fill="#A24BFF" transform="rotate(-4 150 666)">BUILD FOR THIS ONE</text>
+  <path d="M232,650 C250,633 274,620 300,610" fill="none" stroke="#A24BFF" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -20,-9 -20,9" fill="#A24BFF" transform="translate(301,609) rotate(-72)"/>
+
+  <!-- ============ BLOCK D : ASPIRING CREATORS (amber) ============ -->
+  <path d="M520,377 L958,381 L960,611 L522,607 Z" fill="#DE9330" fill-opacity="0.14" stroke="#DE9330" stroke-width="3"/>
+  <rect x="544" y="404" width="68" height="68" fill="#DE9330"/>
+  <text x="578" y="459" font-family="Stencil" font-size="54" text-anchor="middle" fill="#0f0d0b">D</text>
+  <text x="628" y="434" font-family="Stencil" font-size="24" letter-spacing="1.5" fill="#EDE7DA">ASPIRING CREATORS</text>
+  <text x="628" y="460" font-family="Mono" font-size="15" letter-spacing="2" fill="#e0a856">FUTURE BUYERS</text>
+  <text x="546" y="528" font-family="Body" font-size="19" fill="#c9c2b7">They want to know how you</text>
+  <text x="546" y="554" font-family="Body" font-size="19" fill="#c9c2b7">did it. Future class buyers.</text>
+</svg>

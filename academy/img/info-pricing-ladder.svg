@@ -1,0 +1,66 @@
+<svg viewBox="0 0 1000 700" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>The ladder</title>
+  <desc>A rising staircase of five steps from free reels at the bottom left to high ticket movement direction at the top right. Free reels, a pay-what-you-want song on EVEN, the forty-five dollar live class, the membership club, and movement direction for brands. A marker arrow climbs the steps.</desc>
+
+  <!-- TITLE -->
+  <text x="52" y="82" font-family="Stencil" font-size="58" letter-spacing="3" fill="#FF3D9A">THE LADDER</text>
+  <text x="60" y="112" font-family="Marker" font-size="20" fill="#EDE7DA" transform="rotate(-3 60 112)">climb it on purpose.</text>
+
+  <!-- scrawl aside, top right -->
+  <text x="770" y="86" font-family="Marker" font-size="26" fill="#FF3D9A" transform="rotate(-5 770 86)"><tspan x="770" y="86">give a lot away.</tspan><tspan x="770" y="118">charge for the deep stuff.</tspan></text>
+
+  <!-- CLIMBING MARKER ARROW -->
+  <circle cx="55" cy="549" r="5" fill="#FF3D9A"/>
+  <path d="M55,548 L164,547 L165,454 L299,453 L300,359 L434,358 L435,264 L569,263 L570,169 L688,168" fill="none" stroke="#FF3D9A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M702,168 L680,157 L681,179 Z" fill="#FF3D9A"/>
+
+  <!-- ============ STEP 1 : FREE ============ -->
+  <g>
+    <path d="M46,566 L426,563 L426,662 L46,659 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M40,560 L420,557 L420,653 L42,656 Z" fill="#0a0908" fill-opacity="0.55" stroke="#FF3D9A" stroke-width="3" stroke-linejoin="round"/>
+    <text x="64" y="586" font-family="Mono" font-size="12" letter-spacing="2" fill="#9a938a">STEP 01</text>
+    <text x="62" y="626" font-family="Stencil" font-size="34" letter-spacing="1" fill="#FF3D9A">FREE</text>
+    <text x="176" y="602" font-family="Stencil" font-size="20" letter-spacing="1" fill="#EDE7DA">REELS + YOUR STORY</text>
+    <text x="176" y="628" font-family="Body" font-size="16" fill="#9a938a">this is the reach</text>
+  </g>
+
+  <!-- ============ STEP 2 : $ SONG ============ -->
+  <g>
+    <path d="M181,471 L561,468 L561,567 L181,564 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M175,465 L555,462 L555,558 L177,561 Z" fill="#0a0908" fill-opacity="0.55" stroke="#FF3D9A" stroke-width="3" stroke-linejoin="round"/>
+    <text x="199" y="491" font-family="Mono" font-size="12" letter-spacing="2" fill="#9a938a">STEP 02</text>
+    <text x="197" y="531" font-family="Stencil" font-size="34" letter-spacing="1" fill="#FF3D9A">$</text>
+    <text x="255" y="507" font-family="Stencil" font-size="20" letter-spacing="1" fill="#EDE7DA">A SONG</text>
+    <text x="255" y="533" font-family="Body" font-size="16" fill="#9a938a">pay-what-you-want on EVEN</text>
+  </g>
+
+  <!-- ============ STEP 3 : $$ LIVE CLASS ============ -->
+  <g>
+    <path d="M316,376 L696,373 L696,472 L316,469 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M310,370 L690,367 L690,463 L312,466 Z" fill="#0a0908" fill-opacity="0.55" stroke="#FF3D9A" stroke-width="3" stroke-linejoin="round"/>
+    <text x="334" y="396" font-family="Mono" font-size="12" letter-spacing="2" fill="#9a938a">STEP 03</text>
+    <text x="332" y="436" font-family="Stencil" font-size="34" letter-spacing="1" fill="#FF3D9A">$$</text>
+    <text x="404" y="412" font-family="Stencil" font-size="20" letter-spacing="1" fill="#EDE7DA">THE $45 LIVE CLASS</text>
+    <text x="404" y="438" font-family="Body" font-size="16" fill="#9a938a">movement into music</text>
+  </g>
+
+  <!-- ============ STEP 4 : $$$ MEMBERSHIP ============ -->
+  <g>
+    <path d="M451,281 L831,278 L831,377 L451,374 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M445,275 L825,272 L825,368 L447,371 Z" fill="#0a0908" fill-opacity="0.55" stroke="#FF3D9A" stroke-width="3" stroke-linejoin="round"/>
+    <text x="469" y="301" font-family="Mono" font-size="12" letter-spacing="2" fill="#9a938a">STEP 04</text>
+    <text x="467" y="341" font-family="Stencil" font-size="34" letter-spacing="1" fill="#FF3D9A">$$$</text>
+    <text x="555" y="317" font-family="Stencil" font-size="19" letter-spacing="1" fill="#EDE7DA">MEMBERSHIP · THE CLUB</text>
+    <text x="555" y="343" font-family="Body" font-size="16" fill="#9a938a">recurring</text>
+  </g>
+
+  <!-- ============ STEP 5 : $$$$ MOVEMENT DIRECTION ============ -->
+  <g>
+    <path d="M586,186 L966,183 L966,282 L586,279 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M580,180 L960,177 L960,273 L582,276 Z" fill="#0a0908" fill-opacity="0.55" stroke="#FF3D9A" stroke-width="3" stroke-linejoin="round"/>
+    <text x="604" y="206" font-family="Mono" font-size="12" letter-spacing="2" fill="#9a938a">STEP 05</text>
+    <text x="602" y="246" font-family="Stencil" font-size="34" letter-spacing="1" fill="#FF3D9A">$$$$</text>
+    <text x="700" y="222" font-family="Stencil" font-size="19" letter-spacing="1" fill="#EDE7DA">MOVEMENT DIRECTION</text>
+    <text x="700" y="248" font-family="Body" font-size="16" fill="#9a938a">for brands. high ticket.</text>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1000 660" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>One Shoot, Many Cuts</title>
+  <desc>One batch filming day for a single pillar feeds many outputs: eight to ten short clips, one YouTube piece, three email sends, a drop teaser on EVEN, and captions plus quotes.</desc>
+
+  <!-- TITLE with offset shadow -->
+  <text x="43" y="63" font-family="Stencil" font-size="52" letter-spacing="2" fill="#0f0d0b">ONE SHOOT, MANY CUTS</text>
+  <text x="40" y="60" font-family="Stencil" font-size="52" letter-spacing="2" fill="#FF7A1A">ONE SHOOT, MANY CUTS</text>
+
+  <!-- ============ SOURCE NODE : ONE BATCH DAY ============ -->
+  <path d="M56,248 L345,244 L347,426 L54,430 Z" fill="#FF7A1A" fill-opacity="0.16" stroke="#FF7A1A" stroke-width="4.5"/>
+  <text x="82" y="290" font-family="Mono" font-size="15" letter-spacing="3" fill="#f0a562">THE SOURCE</text>
+  <text x="82" y="330" font-family="Stencil" font-size="34" letter-spacing="1.5" fill="#EDE7DA">ONE BATCH DAY</text>
+  <text x="82" y="368" font-family="Marker" font-size="24" fill="#FF7A1A" transform="rotate(-2 82 368)">film one pillar</text>
+
+  <!-- scrawl aside -->
+  <text x="66" y="500" font-family="Marker" font-size="30" fill="#FF7A1A" transform="rotate(-3 66 500)">make it once. feed it everywhere.</text>
+
+  <!-- ============ FAN-OUT ARROWS (one to many) ============ -->
+  <path d="M345,338 Q470,225 604,138" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -20,-9 -20,9" fill="#FF7A1A" transform="translate(608,136) rotate(-37)"/>
+
+  <path d="M345,338 Q474,278 604,234" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -20,-9 -20,9" fill="#FF7A1A" transform="translate(608,232) rotate(-22)"/>
+
+  <path d="M347,336 Q476,338 604,328" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -20,-9 -20,9" fill="#FF7A1A" transform="translate(608,328) rotate(-2)"/>
+
+  <path d="M345,340 Q474,398 604,422" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -20,-9 -20,9" fill="#FF7A1A" transform="translate(608,424) rotate(18)"/>
+
+  <path d="M345,342 Q468,455 604,518" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -20,-9 -20,9" fill="#FF7A1A" transform="translate(608,520) rotate(34)"/>
+
+  <!-- ============ OUTPUT CHIPS (many) ============ -->
+  <!-- chip 1 -->
+  <path d="M616,100 L960,97 L959,171 L615,173 Z" fill="#FF7A1A" fill-opacity="0.10" stroke="#FF7A1A" stroke-width="2.5"/>
+  <rect x="630" y="116" width="10" height="42" fill="#FF7A1A"/>
+  <text x="662" y="135" font-family="Stencil" font-size="25" letter-spacing="1" fill="#EDE7DA">8-10 SHORT CLIPS</text>
+  <text x="662" y="158" font-family="Body" font-size="15" fill="#9a938a">IG / TikTok</text>
+
+  <!-- chip 2 -->
+  <path d="M616,196 L960,194 L959,267 L615,269 Z" fill="#FF7A1A" fill-opacity="0.10" stroke="#FF7A1A" stroke-width="2.5"/>
+  <rect x="630" y="212" width="10" height="42" fill="#FF7A1A"/>
+  <text x="662" y="231" font-family="Stencil" font-size="25" letter-spacing="1" fill="#EDE7DA">1 YOUTUBE PIECE</text>
+  <text x="662" y="254" font-family="Body" font-size="15" fill="#9a938a">long form</text>
+
+  <!-- chip 3 -->
+  <path d="M616,292 L960,290 L959,363 L615,365 Z" fill="#FF7A1A" fill-opacity="0.10" stroke="#FF7A1A" stroke-width="2.5"/>
+  <rect x="630" y="308" width="10" height="42" fill="#FF7A1A"/>
+  <text x="662" y="327" font-family="Stencil" font-size="25" letter-spacing="1" fill="#EDE7DA">3 EMAIL SENDS</text>
+  <text x="662" y="350" font-family="Body" font-size="15" fill="#9a938a">to the list</text>
+
+  <!-- chip 4 -->
+  <path d="M616,388 L960,386 L959,459 L615,461 Z" fill="#FF7A1A" fill-opacity="0.10" stroke="#FF7A1A" stroke-width="2.5"/>
+  <rect x="630" y="404" width="10" height="42" fill="#FF7A1A"/>
+  <text x="662" y="423" font-family="Stencil" font-size="25" letter-spacing="1" fill="#EDE7DA">DROP TEASER</text>
+  <text x="662" y="446" font-family="Body" font-size="15" fill="#9a938a">EVEN</text>
+
+  <!-- chip 5 -->
+  <path d="M616,484 L960,482 L959,555 L615,557 Z" fill="#FF7A1A" fill-opacity="0.10" stroke="#FF7A1A" stroke-width="2.5"/>
+  <rect x="630" y="500" width="10" height="42" fill="#FF7A1A"/>
+  <text x="662" y="519" font-family="Stencil" font-size="25" letter-spacing="1" fill="#EDE7DA">CAPTIONS + QUOTES</text>
+  <text x="662" y="542" font-family="Body" font-size="15" fill="#9a938a">text, everywhere</text>
+</svg>

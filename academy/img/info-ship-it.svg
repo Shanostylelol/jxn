@@ -1,0 +1,96 @@
+<svg viewBox="0 0 1000 620" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Ship it: from your file to live on the internet</title>
+  <desc>A six step pipeline. Your file on your computer, save, push with one command, GitHub stores your code, Vercel builds it, and it goes live at jxn-m.vercel.app for the whole world to see.</desc>
+
+  <!-- TITLE -->
+  <text x="40" y="96" font-family="Stencil" font-size="70" letter-spacing="3" fill="#3D6BFF">SHIP IT</text>
+  <text x="44" y="126" font-family="Body" font-size="17" letter-spacing="1" fill="#9a938a">how your work goes live, start to finish</text>
+  <path d="M46 106 q6 14 -2 26" stroke="#3D6BFF" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+  <!-- ===== TOP ROW (left to right): 1 YOUR FILE, 2 SAVE, 3 PUSH ===== -->
+
+  <!-- Node 1: YOUR FILE -->
+  <g transform="rotate(-1.2 165 240)">
+    <rect x="47" y="182" width="248" height="128" rx="6" fill="#000000" opacity="0.4"/>
+    <rect x="41" y="176" width="248" height="128" rx="6" fill="rgba(10,9,8,0.5)" stroke="#9a938a" stroke-width="2.5"/>
+    <circle cx="41" cy="176" r="17" fill="#3D6BFF"/>
+    <text x="41" y="183" text-anchor="middle" font-family="Stencil" font-size="22" fill="#0a0908">1</text>
+    <text x="165" y="232" text-anchor="middle" font-family="Stencil" font-size="27" letter-spacing="2" fill="#EDE7DA">YOUR FILE</text>
+    <text x="165" y="262" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a">edit on your computer</text>
+  </g>
+
+  <!-- Node 2: SAVE -->
+  <g transform="rotate(0.8 500 240)">
+    <rect x="382" y="182" width="248" height="128" rx="6" fill="#000000" opacity="0.4"/>
+    <rect x="376" y="176" width="248" height="128" rx="6" fill="rgba(10,9,8,0.5)" stroke="#9a938a" stroke-width="2.5"/>
+    <circle cx="376" cy="176" r="17" fill="#3D6BFF"/>
+    <text x="376" y="183" text-anchor="middle" font-family="Stencil" font-size="22" fill="#0a0908">2</text>
+    <text x="500" y="232" text-anchor="middle" font-family="Stencil" font-size="27" letter-spacing="2" fill="#EDE7DA">SAVE</text>
+    <text x="500" y="262" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a">keep your changes</text>
+  </g>
+
+  <!-- Node 3: PUSH (with mono chip) -->
+  <g transform="rotate(-0.9 835 240)">
+    <rect x="717" y="182" width="248" height="128" rx="6" fill="#000000" opacity="0.4"/>
+    <rect x="711" y="176" width="248" height="128" rx="6" fill="rgba(10,9,8,0.5)" stroke="#9a938a" stroke-width="2.5"/>
+    <circle cx="711" cy="176" r="17" fill="#3D6BFF"/>
+    <text x="711" y="183" text-anchor="middle" font-family="Stencil" font-size="22" fill="#0a0908">3</text>
+    <text x="835" y="216" text-anchor="middle" font-family="Stencil" font-size="27" letter-spacing="2" fill="#EDE7DA">PUSH</text>
+    <rect x="770" y="228" width="130" height="26" rx="4" fill="#3D6BFF"/>
+    <text x="835" y="246" text-anchor="middle" font-family="Mono" font-size="17" fill="#0a0908">git push</text>
+    <text x="835" y="285" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a">one command</text>
+  </g>
+
+  <!-- ===== BOTTOM ROW (continues right to left): 4 GITHUB, 5 VERCEL, 6 LIVE ===== -->
+
+  <!-- Node 4: GITHUB -->
+  <g transform="rotate(1 835 464)">
+    <rect x="717" y="406" width="248" height="128" rx="6" fill="#000000" opacity="0.4"/>
+    <rect x="711" y="400" width="248" height="128" rx="6" fill="rgba(10,9,8,0.5)" stroke="#9a938a" stroke-width="2.5"/>
+    <circle cx="711" cy="400" r="17" fill="#3D6BFF"/>
+    <text x="711" y="407" text-anchor="middle" font-family="Stencil" font-size="22" fill="#0a0908">4</text>
+    <text x="835" y="456" text-anchor="middle" font-family="Stencil" font-size="27" letter-spacing="2" fill="#EDE7DA">GITHUB</text>
+    <text x="835" y="486" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a">your code, stored safe</text>
+  </g>
+
+  <!-- Node 5: VERCEL -->
+  <g transform="rotate(-0.8 500 464)">
+    <rect x="382" y="406" width="248" height="128" rx="6" fill="#000000" opacity="0.4"/>
+    <rect x="376" y="400" width="248" height="128" rx="6" fill="rgba(10,9,8,0.5)" stroke="#9a938a" stroke-width="2.5"/>
+    <circle cx="376" cy="400" r="17" fill="#3D6BFF"/>
+    <text x="376" y="407" text-anchor="middle" font-family="Stencil" font-size="22" fill="#0a0908">5</text>
+    <text x="500" y="456" text-anchor="middle" font-family="Stencil" font-size="27" letter-spacing="2" fill="#EDE7DA">VERCEL</text>
+    <text x="500" y="486" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a">builds it for you</text>
+  </g>
+
+  <!-- Node 6: LIVE (solid accent, the destination) -->
+  <g transform="rotate(1.4 165 464)">
+    <rect x="47" y="406" width="248" height="128" rx="6" fill="#000000" opacity="0.45"/>
+    <rect x="41" y="400" width="248" height="128" rx="6" fill="#3D6BFF"/>
+    <circle cx="41" cy="400" r="17" fill="#0a0908"/>
+    <text x="41" y="407" text-anchor="middle" font-family="Stencil" font-size="22" fill="#3D6BFF">6</text>
+    <text x="165" y="448" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="2" fill="#0a0908">LIVE</text>
+    <text x="165" y="478" text-anchor="middle" font-family="Mono" font-size="16" fill="#0a0908">jxn-m.vercel.app</text>
+    <text x="165" y="500" text-anchor="middle" font-family="Body" font-size="15" fill="rgba(10,9,8,0.78)">the whole world sees it</text>
+  </g>
+
+  <!-- ===== MARKER ARROWS ===== -->
+  <!-- 1 to 2 -->
+  <path d="M289 240 Q330 233 366 240" stroke="#3D6BFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <polygon points="372,240 358,232 358,248" fill="#3D6BFF"/>
+  <!-- 2 to 3 -->
+  <path d="M624 240 Q665 247 699 240" stroke="#3D6BFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <polygon points="705,240 691,232 691,248" fill="#3D6BFF"/>
+  <!-- 3 down to 4 -->
+  <path d="M835 304 Q828 350 835 392" stroke="#3D6BFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <polygon points="835,398 827,384 843,384" fill="#3D6BFF"/>
+  <!-- 4 to 5 -->
+  <path d="M711 464 Q670 471 632 464" stroke="#3D6BFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <polygon points="626,464 640,456 640,472" fill="#3D6BFF"/>
+  <!-- 5 to 6 -->
+  <path d="M376 464 Q335 457 301 464" stroke="#3D6BFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <polygon points="295,464 309,456 309,472" fill="#3D6BFF"/>
+
+  <!-- SCRAWL ASIDE -->
+  <text x="560" y="588" font-family="Marker" font-size="24" fill="#3D6BFF" transform="rotate(-4 560 588)">you type one thing. the internet updates.</text>
+</svg>
