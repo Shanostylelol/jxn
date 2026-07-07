@@ -63,5 +63,5 @@
   <path d="M120,486 C230,470 350,438 528,404" fill="none" stroke="#35E06A" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 10" opacity="0.85"/>
 
   <!-- SCRAWL ASIDE -->
-  <text x="628" y="470" font-family="Marker" font-size="25" fill="#35E06A" transform="rotate(-4 628 470)"><tspan x="628" y="470">not likes. emails.</tspan><tspan x="628" y="506">that is the only</tspan><tspan x="628" y="542">score that pays.</tspan></text>
+  <text x="628" y="470" font-family="Marker" font-size="25" fill="#35E06A" transform="rotate(-4 628 470)"><tspan x="628" y="470">emails are the</tspan><tspan x="628" y="506">only score</tspan><tspan x="628" y="542">that pays.</tspan></text>
 </svg>
