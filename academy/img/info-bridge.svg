@@ -1,0 +1,36 @@
+<svg viewBox="0 0 1000 620" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Build the bridge, don't jump</title>
+  <desc>A gentle rising ramp from left to right with a marker arrow walking up it. Left station is dance energy, the reason fans came. The middle is the bridge, the same movement that opens a door to the music and the story. The right station is music and testimony, where you are going.</desc>
+
+  <!-- TITLE with offset shadow -->
+  <text x="43" y="63" font-family="Stencil" font-size="50" letter-spacing="2" fill="#0f0d0b">BUILD THE BRIDGE, DON'T JUMP</text>
+  <text x="40" y="60" font-family="Stencil" font-size="50" letter-spacing="2" fill="#A24BFF">BUILD THE BRIDGE, DON'T JUMP</text>
+
+  <!-- SCRAWL ASIDE (top-left open area) -->
+  <text x="66" y="150" font-family="Marker" font-size="23" fill="#A24BFF" transform="rotate(-3 66 150)">don't disappear and come back a stranger. walk them over.</text>
+
+  <!-- ============ RAMP BAND (the surface, gentle rise) ============ -->
+  <path d="M40,545 L960,300 L960,330 L40,575 Z" fill="#A24BFF" fill-opacity="0.14" stroke="#A24BFF" stroke-width="4.5" stroke-linejoin="round"/>
+
+  <!-- ============ MARKER ARROW WALKING UP (drawn under chips) ============ -->
+  <path d="M74,530 Q270,492 420,440 Q560,392 686,240" fill="none" stroke="#A24BFF" stroke-width="7" stroke-linecap="round"/>
+  <polygon points="0,0 -22,-10 -22,10" fill="#A24BFF" transform="translate(688,237) rotate(-58)"/>
+
+  <!-- ============ STATION 1 : DANCE ENERGY (low, left) ============ -->
+  <path d="M58,389 L332,385 L334,499 L56,503 Z" fill="#A24BFF" fill-opacity="0.12" stroke="#A24BFF" stroke-width="3.5"/>
+  <text x="86" y="424" font-family="Mono" font-size="14" letter-spacing="2" fill="#bd93ff">WHAT THEY CAME FOR</text>
+  <text x="86" y="460" font-family="Stencil" font-size="30" letter-spacing="1.5" fill="#EDE7DA">DANCE ENERGY</text>
+  <text x="86" y="486" font-family="Body" font-size="16" fill="#9a938a">the reason they follow</text>
+
+  <!-- ============ STATION 2 : THE BRIDGE (middle) ============ -->
+  <path d="M363,308 L637,304 L639,418 L361,422 Z" fill="#A24BFF" fill-opacity="0.18" stroke="#A24BFF" stroke-width="4.5"/>
+  <text x="391" y="343" font-family="Mono" font-size="14" letter-spacing="2" fill="#bd93ff">SAME MOVEMENT, NEW DOOR</text>
+  <text x="391" y="379" font-family="Stencil" font-size="32" letter-spacing="1.5" fill="#A24BFF">THE BRIDGE</text>
+  <text x="391" y="404" font-family="Body" font-size="16" fill="#EDE7DA">it opens a door to the music and the story</text>
+
+  <!-- ============ STATION 3 : MUSIC + TESTIMONY (high, right) ============ -->
+  <path d="M668,228 L944,224 L946,338 L666,342 Z" fill="#A24BFF" fill-opacity="0.12" stroke="#A24BFF" stroke-width="3.5"/>
+  <text x="694" y="263" font-family="Mono" font-size="14" letter-spacing="2" fill="#bd93ff">WHERE YOU'RE GOING</text>
+  <text x="694" y="299" font-family="Stencil" font-size="25" letter-spacing="1" fill="#EDE7DA">MUSIC + TESTIMONY</text>
+  <text x="694" y="325" font-family="Body" font-size="16" fill="#9a938a">the work and the witness</text>
+</svg>

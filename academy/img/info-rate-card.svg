@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1000 690" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>A Rate Card For Brands</title>
+  <desc>A two column price menu for three movement direction packages. Spark is fifteen hundred dollars for a new or small brand and five thousand for a major house. Signature is five thousand and fifteen thousand. Full direction is twelve thousand and thirty five thousand or more. The same work is priced to who is paying.</desc>
+
+  <!-- TITLE with offset shadow -->
+  <text x="55" y="85" font-family="Stencil" font-size="54" letter-spacing="2" fill="#120a0f">A RATE CARD FOR BRANDS</text>
+  <text x="52" y="82" font-family="Stencil" font-size="54" letter-spacing="2" fill="#FF3D9A">A RATE CARD FOR BRANDS</text>
+  <text x="56" y="118" font-family="Marker" font-size="20" fill="#EDE7DA" transform="rotate(-2 56 118)">what a movement director charges.</text>
+
+  <!-- ===== COLUMN HEADERS ===== -->
+  <text x="60" y="196" font-family="Mono" font-size="13" letter-spacing="3" fill="#9a938a">THE PACKAGE</text>
+  <text x="613" y="196" font-family="Stencil" font-size="17" letter-spacing="2" fill="#EDE7DA" text-anchor="middle">NEW / SMALL BRAND</text>
+  <text x="844" y="196" font-family="Stencil" font-size="17" letter-spacing="2" fill="#EDE7DA" text-anchor="middle">MAJOR HOUSE</text>
+  <path d="M52,208 L958,205" fill="none" stroke="#FF3D9A" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- vertical column dividers -->
+  <path d="M496,216 L497,600" fill="none" stroke="#9a938a" stroke-width="1.5" stroke-opacity="0.5"/>
+  <path d="M730,216 L731,600" fill="none" stroke="#9a938a" stroke-width="1.5" stroke-opacity="0.5"/>
+
+  <!-- ============ ROW 1 : SPARK ============ -->
+  <path d="M58,230 L964,226 L963,348 L57,352 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M52,224 L958,220 L959,342 L53,346 Z" fill="#0a0908" fill-opacity="0.55" stroke="#FF3D9A" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="72" y="254" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">01</text>
+  <text x="70" y="296" font-family="Stencil" font-size="33" letter-spacing="1" fill="#FF3D9A">SPARK</text>
+  <text x="70" y="326" font-family="Body" font-size="16" fill="#9a938a">one look, one deliverable</text>
+  <text x="613" y="304" font-family="Mono" font-size="30" fill="#EDE7DA" text-anchor="middle">$1,500</text>
+  <text x="844" y="304" font-family="Mono" font-size="30" fill="#FF3D9A" text-anchor="middle">$5,000</text>
+
+  <!-- ============ ROW 2 : SIGNATURE ============ -->
+  <path d="M58,360 L964,356 L963,478 L57,482 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M52,354 L958,350 L959,472 L53,476 Z" fill="#0a0908" fill-opacity="0.55" stroke="#FF3D9A" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="72" y="384" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">02</text>
+  <text x="70" y="426" font-family="Stencil" font-size="33" letter-spacing="1" fill="#FF3D9A">SIGNATURE</text>
+  <text x="70" y="456" font-family="Body" font-size="16" fill="#9a938a">a full campaign moment</text>
+  <text x="613" y="434" font-family="Mono" font-size="30" fill="#EDE7DA" text-anchor="middle">$5,000</text>
+  <text x="844" y="434" font-family="Mono" font-size="30" fill="#FF3D9A" text-anchor="middle">$15,000</text>
+
+  <!-- ============ ROW 3 : FULL DIRECTION ============ -->
+  <path d="M58,490 L964,486 L963,608 L57,612 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M52,484 L958,480 L959,602 L53,606 Z" fill="#0a0908" fill-opacity="0.55" stroke="#FF3D9A" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="72" y="514" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">03</text>
+  <text x="70" y="556" font-family="Stencil" font-size="30" letter-spacing="1" fill="#FF3D9A">FULL DIRECTION</text>
+  <text x="70" y="586" font-family="Body" font-size="16" fill="#9a938a">concept to camera</text>
+  <text x="613" y="564" font-family="Mono" font-size="30" fill="#EDE7DA" text-anchor="middle">$12,000</text>
+  <text x="844" y="564" font-family="Mono" font-size="30" fill="#FF3D9A" text-anchor="middle">$35,000+</text>
+
+  <!-- scrawl aside -->
+  <text x="70" y="656" font-family="Marker" font-size="25" fill="#FF3D9A" transform="rotate(-2 70 656)">same work, priced to who you're standing in front of.</text>
+</svg>

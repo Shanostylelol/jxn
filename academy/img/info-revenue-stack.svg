@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1000 700" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Where the money actually is: discovery, direct, and recurring</title>
+  <desc>A stack of three layers, narrowing as it rises. The wide bottom layer is discovery, streaming, pennies a play but it finds people. The middle layer is direct, selling the song and merch straight to fans, real money you keep. The top layer is recurring, a membership that renews every month, the sturdy money. Streaming is the flyer, not the paycheck.</desc>
+
+  <!-- TITLE -->
+  <text x="40" y="86" font-family="Stencil" font-size="46" letter-spacing="3" fill="#35E06A">WHERE THE MONEY ACTUALLY IS</text>
+  <text x="44" y="116" font-family="Body" font-size="17" letter-spacing="1" fill="#9a938a">same music, three ways to get paid for it</text>
+
+  <!-- ============ TOP : RECURRING (green, boldest, narrowest) ============ -->
+  <g>
+    <path d="M256,166 L756,163 L756,303 L256,306 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M250,160 L750,157 L750,297 L252,300 Z" fill="#35E06A" stroke="#35E06A" stroke-width="3" stroke-linejoin="round"/>
+    <text x="272" y="196" font-family="Mono" font-size="13" letter-spacing="2" fill="#0a0908">TOP</text>
+    <text x="500" y="228" text-anchor="middle" font-family="Stencil" font-size="40" letter-spacing="2" fill="#0a0908">RECURRING</text>
+    <text x="500" y="258" text-anchor="middle" font-family="Body" font-size="17" font-weight="700" fill="#0a0908">a membership that renews every month</text>
+    <text x="500" y="282" text-anchor="middle" font-family="Body" font-size="15" fill="#0a0908">the sturdy money</text>
+  </g>
+
+  <!-- ============ MIDDLE : DIRECT (green) ============ -->
+  <g>
+    <path d="M166,326 L846,323 L846,463 L166,466 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M160,320 L840,317 L840,457 L162,460 Z" fill="#35E06A" stroke="#35E06A" stroke-width="3" stroke-linejoin="round"/>
+    <text x="182" y="356" font-family="Mono" font-size="13" letter-spacing="2" fill="#0a0908">MIDDLE</text>
+    <text x="500" y="388" text-anchor="middle" font-family="Stencil" font-size="34" letter-spacing="2" fill="#0a0908">DIRECT</text>
+    <text x="500" y="418" text-anchor="middle" font-family="Body" font-size="17" font-weight="700" fill="#0a0908">sell the song and merch straight to fans</text>
+    <text x="500" y="442" text-anchor="middle" font-family="Body" font-size="15" fill="#0a0908">real money, you keep it</text>
+  </g>
+
+  <!-- ============ BOTTOM : DISCOVERY (muted, widest) ============ -->
+  <g>
+    <path d="M76,486 L936,483 L936,633 L76,636 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M70,480 L930,477 L930,627 L72,630 Z" fill="#0a0908" fill-opacity="0.55" stroke="#9a938a" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="92" y="516" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">BOTTOM</text>
+    <text x="500" y="548" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="2" fill="#9a938a">DISCOVERY</text>
+    <text x="500" y="580" text-anchor="middle" font-family="Body" font-size="17" fill="#EDE7DA">streaming. pennies a play, but it finds people</text>
+    <text x="500" y="606" text-anchor="middle" font-family="Body" font-size="15" fill="#9a938a">this is the reach, not the income</text>
+  </g>
+
+  <!-- SCRAWL ASIDE -->
+  <text x="120" y="672" font-family="Marker" font-size="24" fill="#35E06A" transform="rotate(-3 120 672)">streaming is the flyer, not the paycheck.</text>
+  <!-- SMALL NOTE -->
+  <text x="620" y="676" font-family="Body" font-size="15" letter-spacing="1" fill="#9a938a">build ONE of these tall before you add the next</text>
+</svg>

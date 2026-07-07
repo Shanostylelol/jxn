@@ -1,0 +1,47 @@
+<svg viewBox="0 0 1000 680" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>One song, two checks</title>
+  <desc>One song splits into two separate rights. On the left the master is the actual recording, the thing you own, your catalog, and it pays check one. On the right the publishing is the song itself, the melody and the words, and it pays check two. A warning below says never trade your masters for an advance, that is selling the goose.</desc>
+
+  <!-- TITLE with offset shadow -->
+  <text x="43" y="63" font-family="Stencil" font-size="50" letter-spacing="2" fill="#0f0d0b">ONE SONG, TWO CHECKS</text>
+  <text x="40" y="60" font-family="Stencil" font-size="50" letter-spacing="2" fill="#E7B24E">ONE SONG, TWO CHECKS</text>
+
+  <!-- ============ SOURCE : ONE SONG ============ -->
+  <path d="M382,104 L620,100 L622,188 L380,192 Z" fill="#E7B24E" fill-opacity="0.16" stroke="#E7B24E" stroke-width="4.5"/>
+  <text x="500" y="134" text-anchor="middle" font-family="Mono" font-size="14" letter-spacing="3" fill="#f0cf8f">THE WORK ITSELF</text>
+  <text x="500" y="174" text-anchor="middle" font-family="Stencil" font-size="40" letter-spacing="2" fill="#EDE7DA">ONE SONG</text>
+
+  <!-- ============ SPLIT ARROWS (two marker arrows down) ============ -->
+  <path d="M472,190 Q360,214 274,244" fill="none" stroke="#E7B24E" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -21,-9 -21,9" fill="#E7B24E" transform="translate(272,247) rotate(110)"/>
+
+  <path d="M528,190 Q640,214 726,244" fill="none" stroke="#E7B24E" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -21,-9 -21,9" fill="#E7B24E" transform="translate(728,247) rotate(70)"/>
+
+  <!-- ============ LEFT BOX : THE MASTER ============ -->
+  <path d="M72,252 L470,248 L472,458 L70,462 Z" fill="#E7B24E" fill-opacity="0.10" stroke="#E7B24E" stroke-width="3.5"/>
+  <text x="100" y="292" font-family="Mono" font-size="14" letter-spacing="2" fill="#f0cf8f">RIGHT #1 · THE RECORDING</text>
+  <text x="100" y="336" font-family="Stencil" font-size="36" letter-spacing="1.5" fill="#EDE7DA">THE MASTER</text>
+  <text x="100" y="376" font-family="Body" font-size="16" fill="#EDE7DA">the actual recording. own this.</text>
+  <text x="100" y="402" font-family="Body" font-size="16" fill="#9a938a">it is your catalog.</text>
+  <rect x="72" y="418" width="400" height="42" fill="#E7B24E"/>
+  <text x="272" y="447" text-anchor="middle" font-family="Stencil" font-size="22" letter-spacing="2" fill="#14100a">PAYS CHECK #1</text>
+
+  <!-- ============ RIGHT BOX : THE PUBLISHING ============ -->
+  <path d="M530,248 L928,252 L930,462 L528,458 Z" fill="#E7B24E" fill-opacity="0.10" stroke="#E7B24E" stroke-width="3.5"/>
+  <text x="558" y="292" font-family="Mono" font-size="14" letter-spacing="2" fill="#f0cf8f">RIGHT #2 · THE COMPOSITION</text>
+  <text x="558" y="336" font-family="Stencil" font-size="32" letter-spacing="1.5" fill="#EDE7DA">THE PUBLISHING</text>
+  <text x="558" y="376" font-family="Body" font-size="16" fill="#EDE7DA">the song itself.</text>
+  <text x="558" y="402" font-family="Body" font-size="16" fill="#9a938a">the melody and the words.</text>
+  <rect x="530" y="418" width="400" height="42" fill="#E7B24E"/>
+  <text x="730" y="447" text-anchor="middle" font-family="Stencil" font-size="22" letter-spacing="2" fill="#14100a">PAYS CHECK #2</text>
+
+  <!-- ============ WARNING LINE ============ -->
+  <path d="M72,500 L928,498 L928,566 L72,568 Z" fill="#E7B24E" fill-opacity="0.08" stroke="#E7B24E" stroke-width="3"/>
+  <rect x="72" y="500" width="12" height="68" fill="#E7B24E"/>
+  <text x="508" y="530" text-anchor="middle" font-family="Body" font-size="20" fill="#EDE7DA">never trade your masters for an advance.</text>
+  <text x="508" y="556" text-anchor="middle" font-family="Stencil" font-size="21" letter-spacing="1" fill="#E7B24E">THAT IS SELLING THE GOOSE.</text>
+
+  <!-- SCRAWL ASIDE -->
+  <text x="500" y="636" text-anchor="middle" font-family="Marker" font-size="26" fill="#E7B24E" transform="rotate(-3 500 636)">two rights. two checks. keep both.</text>
+</svg>

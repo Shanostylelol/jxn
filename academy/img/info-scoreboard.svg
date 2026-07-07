@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1000 640" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>The one number to watch: new contacts this month</title>
+  <desc>A mock monthly scoreboard with three cells. New contacts this month is 214, highlighted in green as the number that matters. List size is 1,240. Open rate is 38 percent. Below, a small bar chart shows contacts climbing over four months, from 90 to 130 to 180 to 214, with the final bar in green. Not likes. Emails. That is the only score that pays.</desc>
+
+  <!-- TITLE -->
+  <text x="40" y="86" font-family="Stencil" font-size="46" letter-spacing="3" fill="#35E06A">THE ONE NUMBER TO WATCH</text>
+  <text x="44" y="116" font-family="Body" font-size="17" letter-spacing="1" fill="#9a938a">a monthly scoreboard you can copy, filled in as an example</text>
+
+  <!-- ============ CELL 1 : NEW CONTACTS (green highlight, THE number) ============ -->
+  <g>
+    <path d="M46,176 L336,174 L336,338 L46,340 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M40,170 L330,168 L330,332 L42,334 Z" fill="#35E06A" stroke="#35E06A" stroke-width="3" stroke-linejoin="round"/>
+    <text x="62" y="202" font-family="Mono" font-size="13" letter-spacing="2" fill="#0a0908">NEW CONTACTS THIS MONTH</text>
+    <text x="62" y="296" font-family="Stencil" font-size="92" letter-spacing="1" fill="#0a0908">214</text>
+    <text x="62" y="322" font-family="Body" font-size="15" font-weight="700" fill="#0a0908">this is the score</text>
+  </g>
+
+  <!-- ============ CELL 2 : LIST SIZE ============ -->
+  <g>
+    <path d="M361,176 L651,174 L651,338 L361,340 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M355,170 L645,168 L645,332 L357,334 Z" fill="#0a0908" fill-opacity="0.55" stroke="#9a938a" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="377" y="202" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">LIST SIZE</text>
+    <text x="377" y="288" font-family="Stencil" font-size="64" letter-spacing="1" fill="#EDE7DA">1,240</text>
+    <text x="377" y="318" font-family="Body" font-size="15" fill="#9a938a">everyone you can reach direct</text>
+  </g>
+
+  <!-- ============ CELL 3 : OPEN RATE ============ -->
+  <g>
+    <path d="M676,176 L966,174 L966,338 L676,340 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M670,170 L960,168 L960,332 L672,334 Z" fill="#0a0908" fill-opacity="0.55" stroke="#9a938a" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="692" y="202" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">OPEN RATE</text>
+    <text x="692" y="288" font-family="Stencil" font-size="64" letter-spacing="1" fill="#EDE7DA">38%</text>
+    <text x="692" y="318" font-family="Body" font-size="15" fill="#9a938a">how many actually read it</text>
+  </g>
+
+  <!-- ============ BAR CHART : contacts, last 4 months ============ -->
+  <text x="40" y="392" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">NEW CONTACTS, LAST 4 MONTHS</text>
+
+  <!-- baseline -->
+  <line x1="60" y1="576" x2="600" y2="576" stroke="#9a938a" stroke-width="2"/>
+
+  <!-- bar 1 : 90 -->
+  <rect x="80" y="500" width="90" height="76" fill="#0a0908" fill-opacity="0.55" stroke="#9a938a" stroke-width="2.5"/>
+  <text x="125" y="490" text-anchor="middle" font-family="Mono" font-size="15" fill="#9a938a">90</text>
+  <text x="125" y="600" text-anchor="middle" font-family="Mono" font-size="13" letter-spacing="1" fill="#9a938a">APR</text>
+
+  <!-- bar 2 : 130 -->
+  <rect x="220" y="467" width="90" height="109" fill="#0a0908" fill-opacity="0.55" stroke="#9a938a" stroke-width="2.5"/>
+  <text x="265" y="457" text-anchor="middle" font-family="Mono" font-size="15" fill="#9a938a">130</text>
+  <text x="265" y="600" text-anchor="middle" font-family="Mono" font-size="13" letter-spacing="1" fill="#9a938a">MAY</text>
+
+  <!-- bar 3 : 180 -->
+  <rect x="360" y="425" width="90" height="151" fill="#0a0908" fill-opacity="0.55" stroke="#9a938a" stroke-width="2.5"/>
+  <text x="405" y="415" text-anchor="middle" font-family="Mono" font-size="15" fill="#9a938a">180</text>
+  <text x="405" y="600" text-anchor="middle" font-family="Mono" font-size="13" letter-spacing="1" fill="#9a938a">JUN</text>
+
+  <!-- bar 4 : 214 (green, this month) -->
+  <rect x="500" y="396" width="90" height="180" fill="#35E06A"/>
+  <text x="545" y="386" text-anchor="middle" font-family="Mono" font-size="16" font-weight="700" fill="#35E06A">214</text>
+  <text x="545" y="600" text-anchor="middle" font-family="Mono" font-size="13" letter-spacing="1" fill="#EDE7DA">JUL</text>
+
+  <!-- trend arrow climbing the bar tops -->
+  <path d="M120,486 C230,470 350,438 528,404" fill="none" stroke="#35E06A" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 10" opacity="0.85"/>
+
+  <!-- SCRAWL ASIDE -->
+  <text x="628" y="470" font-family="Marker" font-size="25" fill="#35E06A" transform="rotate(-4 628 470)"><tspan x="628" y="470">not likes. emails.</tspan><tspan x="628" y="506">that is the only</tspan><tspan x="628" y="542">score that pays.</tspan></text>
+</svg>

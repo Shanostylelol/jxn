@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1000 720" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>The loop that compounds</title>
+  <desc>A circular flywheel of four nodes running clockwise. Your six sites feed the email and SMS list. The list powers a release or drop on EVEN. That brings fans who show up. Those fans feed back into the list, which is now bigger. Each lap the list grows.</desc>
+
+  <!-- TITLE with offset shadow -->
+  <text x="43" y="63" font-family="Stencil" font-size="50" letter-spacing="2" fill="#0f0d0b">THE LOOP THAT COMPOUNDS</text>
+  <text x="40" y="60" font-family="Stencil" font-size="50" letter-spacing="2" fill="#E7B24E">THE LOOP THAT COMPOUNDS</text>
+
+  <!-- ============ FLYWHEEL GUIDE RING ============ -->
+  <circle cx="500" cy="410" r="208" fill="none" stroke="#E7B24E" stroke-opacity="0.16" stroke-width="3" stroke-dasharray="4 12"/>
+
+  <!-- ============ CLOCKWISE MARKER ARROWS ============ -->
+  <!-- top -> right -->
+  <path d="M628,222 Q736,258 762,346" fill="none" stroke="#E7B24E" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -21,-9 -21,9" fill="#E7B24E" transform="translate(764,350) rotate(80)"/>
+  <!-- right -> bottom -->
+  <path d="M760,470 Q734,566 630,596" fill="none" stroke="#E7B24E" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -21,-9 -21,9" fill="#E7B24E" transform="translate(626,598) rotate(160)"/>
+  <!-- bottom -> left -->
+  <path d="M372,598 Q266,568 240,472" fill="none" stroke="#E7B24E" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -21,-9 -21,9" fill="#E7B24E" transform="translate(238,468) rotate(255)"/>
+  <!-- left -> top -->
+  <path d="M242,346 Q268,256 374,224" fill="none" stroke="#E7B24E" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -21,-9 -21,9" fill="#E7B24E" transform="translate(378,222) rotate(340)"/>
+
+  <!-- ============ CENTER LABEL ============ -->
+  <text x="500" y="400" text-anchor="middle" font-family="Stencil" font-size="24" letter-spacing="1.5" fill="#EDE7DA">EACH LAP,</text>
+  <text x="500" y="430" text-anchor="middle" font-family="Stencil" font-size="24" letter-spacing="1.5" fill="#E7B24E">THE LIST GROWS.</text>
+
+  <!-- ============ NODE 1 : YOUR 6 SITES (top) ============ -->
+  <path d="M372,142 L630,138 L632,236 L370,240 Z" fill="#E7B24E" fill-opacity="0.12" stroke="#E7B24E" stroke-width="3.5"/>
+  <text x="396" y="176" font-family="Mono" font-size="20" letter-spacing="1" fill="#f0cf8f">1</text>
+  <text x="428" y="184" font-family="Stencil" font-size="26" letter-spacing="1" fill="#EDE7DA">YOUR 6 SITES</text>
+  <text x="428" y="214" font-family="Body" font-size="15" fill="#9a938a">every door</text>
+
+  <!-- ============ NODE 2 : EMAIL / SMS LIST (right) ============ -->
+  <path d="M646,354 L906,350 L908,448 L644,452 Z" fill="#E7B24E" fill-opacity="0.18" stroke="#E7B24E" stroke-width="4.5"/>
+  <text x="670" y="388" font-family="Mono" font-size="20" letter-spacing="1" fill="#f0cf8f">2</text>
+  <text x="702" y="396" font-family="Stencil" font-size="23" letter-spacing="1" fill="#E7B24E">EMAIL / SMS LIST</text>
+  <text x="702" y="426" font-family="Body" font-size="15" fill="#EDE7DA">the asset you own</text>
+
+  <!-- ============ NODE 3 : A RELEASE OR DROP (bottom) ============ -->
+  <path d="M372,566 L630,562 L632,660 L370,664 Z" fill="#E7B24E" fill-opacity="0.12" stroke="#E7B24E" stroke-width="3.5"/>
+  <text x="396" y="600" font-family="Mono" font-size="20" letter-spacing="1" fill="#f0cf8f">3</text>
+  <text x="428" y="608" font-family="Stencil" font-size="23" letter-spacing="1" fill="#EDE7DA">A RELEASE OR DROP</text>
+  <text x="428" y="638" font-family="Body" font-size="15" fill="#9a938a">on EVEN</text>
+
+  <!-- ============ NODE 4 : FANS WHO SHOW UP (left) ============ -->
+  <path d="M94,354 L354,350 L356,448 L92,452 Z" fill="#E7B24E" fill-opacity="0.12" stroke="#E7B24E" stroke-width="3.5"/>
+  <text x="118" y="388" font-family="Mono" font-size="20" letter-spacing="1" fill="#f0cf8f">4</text>
+  <text x="150" y="396" font-family="Stencil" font-size="22" letter-spacing="1" fill="#EDE7DA">FANS WHO SHOW UP</text>
+  <text x="150" y="426" font-family="Body" font-size="15" fill="#9a938a">they buy, they share</text>
+
+  <!-- SCRAWL ASIDE -->
+  <text x="500" y="702" text-anchor="middle" font-family="Marker" font-size="25" fill="#E7B24E" transform="rotate(-3 500 702)">every door feeds the list. the list feeds everything.</text>
+</svg>

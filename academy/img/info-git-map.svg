@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1000 600" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Where your code lives: your computer, GitHub, and the live site</title>
+  <desc>Three boxes left to right. Your computer, where you edit. You commit and push to GitHub, the safe cloud copy. GitHub auto-builds to the live site at jxn-m.vercel.app, what the world sees. One save ends up in three places, so nothing gets lost.</desc>
+
+  <!-- TITLE -->
+  <text x="40" y="88" font-family="Stencil" font-size="46" letter-spacing="3" fill="#3D6BFF">WHERE YOUR CODE LIVES</text>
+  <text x="44" y="118" font-family="Body" font-size="17" letter-spacing="1" fill="#9a938a">one thing you make, saved in three places, on purpose</text>
+
+  <!-- ============ BOX 1 : YOUR COMPUTER ============ -->
+  <g>
+    <path d="M46,236 L306,234 L306,424 L46,426 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M40,230 L300,228 L300,418 L42,420 Z" fill="#0a0908" fill-opacity="0.55" stroke="#3D6BFF" stroke-width="3" stroke-linejoin="round"/>
+    <text x="62" y="266" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">01</text>
+    <text x="170" y="336" text-anchor="middle" font-family="Stencil" font-size="27" letter-spacing="1" fill="#EDE7DA">YOUR COMPUTER</text>
+    <text x="170" y="372" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a">where you edit</text>
+  </g>
+
+  <!-- arrow 1 -->
+  <text x="335" y="298" text-anchor="middle" font-family="Marker" font-size="19" fill="#3D6BFF">commit + push</text>
+  <path d="M306,325 C324,321 344,329 358,324" fill="none" stroke="#3D6BFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M372,324 L350,313 L352,335 Z" fill="#3D6BFF"/>
+
+  <!-- ============ BOX 2 : GITHUB ============ -->
+  <g>
+    <path d="M376,236 L636,234 L636,424 L376,426 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M370,230 L630,228 L630,418 L372,420 Z" fill="#0a0908" fill-opacity="0.55" stroke="#3D6BFF" stroke-width="3" stroke-linejoin="round"/>
+    <text x="392" y="266" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">02</text>
+    <text x="500" y="336" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="1" fill="#EDE7DA">GITHUB</text>
+    <text x="500" y="372" text-anchor="middle" font-family="Body" font-size="16" fill="#9a938a">the safe cloud copy</text>
+  </g>
+
+  <!-- arrow 2 -->
+  <text x="665" y="298" text-anchor="middle" font-family="Marker" font-size="19" fill="#3D6BFF">auto-build</text>
+  <path d="M636,325 C654,329 674,320 688,325" fill="none" stroke="#3D6BFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M702,325 L680,314 L682,336 Z" fill="#3D6BFF"/>
+
+  <!-- ============ BOX 3 : LIVE SITE (accent filled) ============ -->
+  <g>
+    <path d="M706,236 L966,234 L966,424 L706,426 Z" fill="#000000" fill-opacity="0.4"/>
+    <path d="M700,230 L960,228 L960,418 L702,420 Z" fill="#3D6BFF" stroke="#3D6BFF" stroke-width="3" stroke-linejoin="round"/>
+    <text x="722" y="266" font-family="Mono" font-size="13" letter-spacing="2" fill="#0a0908">03</text>
+    <text x="830" y="330" text-anchor="middle" font-family="Stencil" font-size="30" letter-spacing="1" fill="#0a0908">LIVE SITE</text>
+    <text x="830" y="360" text-anchor="middle" font-family="Mono" font-size="15" letter-spacing="1" fill="#0a0908">jxn-m.vercel.app</text>
+    <text x="830" y="388" text-anchor="middle" font-family="Body" font-size="16" font-weight="700" fill="#0a0908">what the world sees</text>
+  </g>
+
+  <!-- SCRAWL ASIDE -->
+  <text x="70" y="498" font-family="Marker" font-size="26" fill="#3D6BFF" transform="rotate(-4 70 498)">one save, three places. nothing gets lost.</text>
+</svg>

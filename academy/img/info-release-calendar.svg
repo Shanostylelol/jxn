@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1000 620" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>A Drop, Across One Week</title>
+  <desc>A one week timeline from Monday to Sunday for releasing a song on Friday. Monday teases a clip with no context. Wednesday tells the story of why the song. Friday is drop day, live on EVEN with the link in bio. Saturday and Sunday are afterglow, reactions and behind the scenes and thanks.</desc>
+
+  <!-- TITLE with offset shadow -->
+  <text x="43" y="63" font-family="Stencil" font-size="50" letter-spacing="2" fill="#120a05">A DROP, ACROSS ONE WEEK</text>
+  <text x="40" y="60" font-family="Stencil" font-size="50" letter-spacing="2" fill="#FF7A1A">A DROP, ACROSS ONE WEEK</text>
+
+  <!-- ===== WEEK TIMELINE ===== -->
+  <path d="M60,200 L950,198" fill="none" stroke="#9a938a" stroke-width="2" stroke-opacity="0.6"/>
+
+  <!-- day labels -->
+  <text x="80" y="178" font-family="Stencil" font-size="20" letter-spacing="2" fill="#EDE7DA" text-anchor="middle">MON</text>
+  <text x="222" y="178" font-family="Stencil" font-size="20" letter-spacing="2" fill="#9a938a" text-anchor="middle">TUE</text>
+  <text x="364" y="178" font-family="Stencil" font-size="20" letter-spacing="2" fill="#EDE7DA" text-anchor="middle">WED</text>
+  <text x="505" y="178" font-family="Stencil" font-size="20" letter-spacing="2" fill="#9a938a" text-anchor="middle">THU</text>
+  <text x="647" y="176" font-family="Stencil" font-size="24" letter-spacing="2" fill="#FF7A1A" text-anchor="middle">FRI</text>
+  <text x="789" y="178" font-family="Stencil" font-size="20" letter-spacing="2" fill="#EDE7DA" text-anchor="middle">SAT</text>
+  <text x="930" y="178" font-family="Stencil" font-size="20" letter-spacing="2" fill="#EDE7DA" text-anchor="middle">SUN</text>
+
+  <!-- day ticks -->
+  <circle cx="80" cy="200" r="8" fill="#FF7A1A"/>
+  <circle cx="222" cy="200" r="6" fill="none" stroke="#9a938a" stroke-width="2"/>
+  <circle cx="364" cy="200" r="8" fill="#FF7A1A"/>
+  <circle cx="505" cy="200" r="6" fill="none" stroke="#9a938a" stroke-width="2"/>
+  <circle cx="647" cy="200" r="14" fill="#FF7A1A"/>
+  <circle cx="647" cy="200" r="21" fill="none" stroke="#FF7A1A" stroke-width="2.5" stroke-opacity="0.7"/>
+  <circle cx="789" cy="200" r="8" fill="#FF7A1A"/>
+  <circle cx="930" cy="200" r="8" fill="#FF7A1A"/>
+
+  <!-- connectors (marker drop-lines) -->
+  <path d="M80,210 Q120,255 153,296" fill="none" stroke="#FF7A1A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M364,210 Q392,255 409,296" fill="none" stroke="#FF7A1A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M647,224 Q650,262 652,296" fill="none" stroke="#FF7A1A" stroke-width="7" stroke-linecap="round"/>
+  <path d="M789,210 Q828,255 855,296" fill="none" stroke="#FF7A1A" stroke-width="5" stroke-linecap="round"/>
+  <path d="M930,210 Q900,255 872,296" fill="none" stroke="#FF7A1A" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- ============ CARD 1 : MON ============ -->
+  <path d="M50,306 L268,302 L269,484 L49,488 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M44,300 L262,296 L263,478 L43,482 Z" fill="#FF7A1A" fill-opacity="0.10" stroke="#FF7A1A" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="60" y="318" width="9" height="40" fill="#FF7A1A"/>
+  <text x="84" y="336" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">MON</text>
+  <text x="84" y="380" font-family="Stencil" font-size="30" letter-spacing="1" fill="#EDE7DA">TEASE</text>
+  <text x="60" y="424" font-family="Body" font-size="16" fill="#9a938a">a clip,</text>
+  <text x="60" y="448" font-family="Body" font-size="16" fill="#9a938a">no context</text>
+
+  <!-- ============ CARD 2 : WED ============ -->
+  <path d="M306,306 L524,302 L525,484 L305,488 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M300,300 L518,296 L519,478 L299,482 Z" fill="#FF7A1A" fill-opacity="0.10" stroke="#FF7A1A" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="316" y="318" width="9" height="40" fill="#FF7A1A"/>
+  <text x="340" y="336" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">WED</text>
+  <text x="316" y="380" font-family="Stencil" font-size="26" letter-spacing="1" fill="#EDE7DA">THE STORY</text>
+  <text x="316" y="424" font-family="Body" font-size="16" fill="#9a938a">why this song,</text>
+  <text x="316" y="448" font-family="Body" font-size="16" fill="#9a938a">the real one</text>
+
+  <!-- ============ CARD 3 : FRI (drop day, highlighted) ============ -->
+  <path d="M562,306 L754,302 L755,494 L561,498 Z" fill="#000000" fill-opacity="0.45"/>
+  <path d="M556,300 L748,296 L749,488 L555,492 Z" fill="#FF7A1A" fill-opacity="0.22" stroke="#FF7A1A" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="572" y="318" width="10" height="44" fill="#FF7A1A"/>
+  <text x="598" y="336" font-family="Mono" font-size="13" letter-spacing="2" fill="#FF7A1A">FRI</text>
+  <text x="572" y="384" font-family="Stencil" font-size="27" letter-spacing="1" fill="#EDE7DA">DROP DAY</text>
+  <text x="572" y="428" font-family="Body" font-size="16" fill="#EDE7DA">it's live on EVEN,</text>
+  <text x="572" y="452" font-family="Body" font-size="16" fill="#EDE7DA">link in bio</text>
+
+  <!-- ============ CARD 4 : SAT / SUN (afterglow) ============ -->
+  <path d="M766,306 L968,302 L969,484 L765,488 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M760,300 L962,296 L963,478 L759,482 Z" fill="#FF7A1A" fill-opacity="0.10" stroke="#FF7A1A" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="776" y="318" width="9" height="40" fill="#FF7A1A"/>
+  <text x="800" y="336" font-family="Mono" font-size="13" letter-spacing="2" fill="#9a938a">SAT / SUN</text>
+  <text x="776" y="380" font-family="Stencil" font-size="26" letter-spacing="1" fill="#EDE7DA">AFTERGLOW</text>
+  <text x="776" y="424" font-family="Body" font-size="16" fill="#9a938a">reactions, behind</text>
+  <text x="776" y="448" font-family="Body" font-size="16" fill="#9a938a">the scenes, thank them</text>
+
+  <!-- scrawl aside -->
+  <text x="60" y="560" font-family="Marker" font-size="26" fill="#FF7A1A" transform="rotate(-3 60 560)">the song is Friday. the story starts Monday.</text>
+</svg>

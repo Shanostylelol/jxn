@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1000 560" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Three Gears Of Content</title>
+  <desc>A left to right flow of three content modes joined by marker arrows. Create is the idea, one strong pillar piece. Batch is doing it in bulk once, filming four at a time with the same setup. Repurpose cuts that one shoot into many, so it feeds a whole week.</desc>
+
+  <!-- TITLE with offset shadow -->
+  <text x="43" y="63" font-family="Stencil" font-size="52" letter-spacing="2" fill="#120a05">THREE GEARS OF CONTENT</text>
+  <text x="40" y="60" font-family="Stencil" font-size="52" letter-spacing="2" fill="#FF7A1A">THREE GEARS OF CONTENT</text>
+
+  <!-- ============ NODE 1 : CREATE ============ -->
+  <path d="M46,186 L319,182 L320,414 L45,418 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M40,180 L313,176 L314,408 L39,412 Z" fill="#FF7A1A" fill-opacity="0.12" stroke="#FF7A1A" stroke-width="4.5" stroke-linejoin="round"/>
+  <text x="64" y="224" font-family="Mono" font-size="14" letter-spacing="3" fill="#f0a562">GEAR 01</text>
+  <text x="62" y="270" font-family="Stencil" font-size="36" letter-spacing="1" fill="#EDE7DA">CREATE</text>
+  <text x="64" y="308" font-family="Body" font-size="16" fill="#9a938a">make one strong</text>
+  <text x="64" y="330" font-family="Body" font-size="16" fill="#9a938a">pillar piece</text>
+  <text x="64" y="378" font-family="Marker" font-size="23" fill="#FF7A1A" transform="rotate(-2 64 378)">the idea.</text>
+
+  <!-- arrow 1 -->
+  <path d="M313,296 Q336,288 356,296" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -18,-8 -18,8" fill="#FF7A1A" transform="translate(361,296) rotate(6)"/>
+
+  <!-- ============ NODE 2 : BATCH ============ -->
+  <path d="M369,186 L642,182 L643,414 L368,418 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M363,180 L636,176 L637,408 L362,412 Z" fill="#FF7A1A" fill-opacity="0.12" stroke="#FF7A1A" stroke-width="4.5" stroke-linejoin="round"/>
+  <text x="387" y="224" font-family="Mono" font-size="14" letter-spacing="3" fill="#f0a562">GEAR 02</text>
+  <text x="385" y="270" font-family="Stencil" font-size="36" letter-spacing="1" fill="#EDE7DA">BATCH</text>
+  <text x="387" y="308" font-family="Body" font-size="16" fill="#9a938a">film four at once,</text>
+  <text x="387" y="330" font-family="Body" font-size="16" fill="#9a938a">same setup</text>
+  <text x="387" y="378" font-family="Marker" font-size="23" fill="#FF7A1A" transform="rotate(-2 387 378)">do it in bulk, once.</text>
+
+  <!-- arrow 2 -->
+  <path d="M636,296 Q659,304 679,296" fill="none" stroke="#FF7A1A" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,0 -18,-8 -18,8" fill="#FF7A1A" transform="translate(684,296) rotate(-6)"/>
+
+  <!-- ============ NODE 3 : REPURPOSE ============ -->
+  <path d="M692,186 L965,182 L966,414 L691,418 Z" fill="#000000" fill-opacity="0.4"/>
+  <path d="M686,180 L959,176 L960,408 L685,412 Z" fill="#FF7A1A" fill-opacity="0.12" stroke="#FF7A1A" stroke-width="4.5" stroke-linejoin="round"/>
+  <text x="710" y="224" font-family="Mono" font-size="14" letter-spacing="3" fill="#f0a562">GEAR 03</text>
+  <text x="708" y="270" font-family="Stencil" font-size="33" letter-spacing="1" fill="#EDE7DA">REPURPOSE</text>
+  <text x="710" y="308" font-family="Body" font-size="16" fill="#9a938a">cut that one</text>
+  <text x="710" y="330" font-family="Body" font-size="16" fill="#9a938a">into many</text>
+  <text x="710" y="378" font-family="Marker" font-size="22" fill="#FF7A1A" transform="rotate(-2 710 378)">one shoot feeds a week.</text>
+
+  <!-- scrawl aside -->
+  <text x="60" y="498" font-family="Marker" font-size="26" fill="#FF7A1A" transform="rotate(-3 60 498)">you already do gear one. this adds two and three.</text>
+</svg>
