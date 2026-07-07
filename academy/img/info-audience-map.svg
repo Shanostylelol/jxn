@@ -1,6 +1,6 @@
 <svg viewBox="0 0 1000 700" role="img" xmlns="http://www.w3.org/2000/svg">
   <title>Map Your Audience</title>
-  <desc>Jackson's 1.6M following is not one audience but four segments: legacy dance fans, fashion industry, new faith and music fans (the real business to build for), and aspiring creators.</desc>
+  <desc>Jackson's 1.6M following is your 1.6M is really four segments: legacy dance fans, fashion industry, new faith and music fans (the real business to build for), and aspiring creators.</desc>
 
   <!-- grouping panel -->
   <rect x="24" y="98" width="952" height="522" rx="14" fill="rgba(10,9,8,0.5)"/>
@@ -10,7 +10,7 @@
   <text x="40" y="60" font-family="Stencil" font-size="52" letter-spacing="2" fill="#A24BFF">MAP YOUR AUDIENCE</text>
 
   <!-- top scrawl aside -->
-  <text x="972" y="52" text-anchor="end" font-family="Marker" font-size="21" fill="#A24BFF" transform="rotate(-3 972 52)">1.6M is not one audience. it's four.</text>
+  <text x="972" y="52" text-anchor="end" font-family="Marker" font-size="21" fill="#A24BFF" transform="rotate(-3 972 52)">your 1.6M is really four audiences.</text>
 
   <!-- ============ BLOCK A : LEGACY DANCE FANS (grey-blue) ============ -->
   <path d="M46,124 L478,119 L481,342 L43,346 Z" fill="#5f7080" fill-opacity="0.14" stroke="#5f7080" stroke-width="3"/>

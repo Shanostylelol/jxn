@@ -1,6 +1,6 @@
 <svg viewBox="0 0 1000 640" role="img" xmlns="http://www.w3.org/2000/svg">
   <title>The one number to watch: new contacts this month</title>
-  <desc>A mock monthly scoreboard with three cells. New contacts this month is 214, highlighted in green as the number that matters. List size is 1,240. Open rate is 38 percent. Below, a small bar chart shows contacts climbing over four months, from 90 to 130 to 180 to 214, with the final bar in green. Not likes. Emails. That is the only score that pays.</desc>
+  <desc>A mock monthly scoreboard with three cells. New contacts this month is 214, highlighted in green as the number that matters. List size is 1,240. Open rate is 38 percent. Below, a small bar chart shows contacts climbing over four months, from 90 to 130 to 180 to 214, with the final bar in green. The only score that pays is emails. Watch that one.</desc>
 
   <!-- TITLE -->
   <text x="40" y="86" font-family="Stencil" font-size="46" letter-spacing="3" fill="#35E06A">THE ONE NUMBER TO WATCH</text>
