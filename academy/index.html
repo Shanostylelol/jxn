@@ -63,6 +63,38 @@ main{padding:0 0 130px;min-width:0}
 .man-card h2{font-family:'Shooked';font-size:clamp(1.7rem,3.4vw,2.5rem);line-height:.95;color:var(--ink);margin:8px 0 14px}
 .man-body p{font-size:15.5px;color:#241f18;margin:0 0 11px;padding-left:16px;border-left:2px solid rgba(0,0,0,.12)}
 .man-closer{font-family:'Marker';font-size:20px;color:#c8531a;margin-top:8px}
+/* cheat sheet button + modal */
+.cheatbtn{display:flex;align-items:center;gap:11px;width:100%;background:linear-gradient(180deg,#1c1a12,#141310);border:1px solid #4a4020;border-left:3px solid #FFD23F;border-radius:10px;padding:10px 12px;cursor:pointer;text-align:left;transition:.15s}
+.cheatbtn:hover{border-color:#FFD23F;background:#1f1c12}
+.cheatbtn .cb-emb{width:32px;height:32px;object-fit:contain;flex:none;filter:drop-shadow(0 1px 2px #000)}
+.cb-txt{display:flex;flex-direction:column;gap:3px}
+.cb-t{font-family:'Stencil';font-size:16px;color:#FFD23F;line-height:1}
+.cb-s{font-family:'Mono';font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut)}
+.csmodal{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:24px}
+.csmodal[hidden]{display:none}
+.cs-scrim{position:absolute;inset:0;background:rgba(6,5,5,.82);backdrop-filter:blur(4px)}
+.cs-inner{position:relative;background:#141210;border:1px solid #33291d;border-top:4px solid #FFD23F;border-radius:14px;max-width:760px;width:100%;max-height:88vh;overflow:auto;padding:30px 32px 34px;box-shadow:0 30px 80px rgba(0,0,0,.7)}
+.cs-close{position:sticky;float:right;top:0;font-family:'Mono';font-size:12px;color:var(--mut);background:#141210;border:1px solid #3a3226;border-radius:7px;padding:5px 12px;cursor:pointer;z-index:2}
+.cs-close:hover{color:var(--bone);border-color:#FFD23F}
+.cs-head{margin-bottom:8px;max-width:60ch}
+.cs-tag{font-family:'Spray';font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#FFD23F}
+.cs-head h2{font-family:'Shooked';font-size:clamp(1.9rem,4vw,2.7rem);line-height:.95;color:var(--bone);margin:6px 0 10px}
+.cs-head p{color:#cfc7ba;font-size:15px}
+.csgroup{margin:20px 0 0;border-top:1px solid #241f18;padding-top:16px}
+.csgroup h3{font-family:'Stencil';font-size:17px;color:var(--bone);letter-spacing:.01em;margin-bottom:12px}
+.csitems{display:flex;flex-direction:column;gap:12px}
+.csrow{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px}
+.cs-key{font-family:'Mono';font-size:12.5px;color:#f0e4b0;background:#241f14;border:1px solid #4a3f22;border-bottom-width:2px;border-radius:6px;padding:4px 9px;white-space:nowrap;flex:none}
+.csrow .cs-v{font-size:14px;color:#cbc3b4;flex:1;min-width:170px}
+.cs-prompt{flex-direction:column;gap:5px;background:rgba(255,210,63,.04);border:1px solid #2e2717;border-radius:9px;padding:11px 13px}
+.cs-k{font-family:'Body';font-weight:600;font-size:13.5px;color:#FFD23F}
+.cs-prompt .cs-v{font-size:12.5px;color:var(--mut)}
+.cs-snipwrap{position:relative;margin-top:4px;background:#0c0b09;border:1px solid #2c2620;border-radius:8px;padding:11px 13px}
+.cs-snip{font-family:'Mono';font-size:12.5px;line-height:1.5;color:#ece3d2;display:block;white-space:pre-wrap;word-break:break-word;padding-right:56px}
+.cs-copy{position:absolute;top:9px;right:9px;font-family:'Mono';font-size:11px;color:#a99;background:transparent;border:1px solid #443626;border-radius:6px;padding:3px 9px;cursor:pointer}
+.cs-copy:hover{color:#fff;border-color:#FFD23F}
+.cs-copy.done{color:#7dd88f;border-color:#2f5c3a}
+.cheat-m{background:rgba(255,210,63,.12)!important;border-left-color:#FFD23F!important;color:#FFD23F!important}
 .faststart h2{font-family:'Stencil';font-size:26px;color:var(--bone);margin:6px 0 4px}
 .faststart p{color:#cfc7ba;font-size:15px;max-width:64ch;margin-bottom:14px}
 .faststart ol{list-style:none;counter-reset:fs;display:flex;flex-direction:column;gap:12px}
@@ -158,6 +190,9 @@ main{padding:0 0 130px;min-width:0}
  .temb{width:58px;height:58px}
  .lesson,.lesson:nth-child(odd),.lesson:nth-child(even){transform:none;padding:22px 20px 18px}
  .study-grid{grid-template-columns:1fr}
+ .csmodal{padding:0}
+ .cs-inner{max-height:100vh;border-radius:0;border-top:0;padding:22px 16px 30px}
+ .csrow .cs-v{min-width:0}
  .info{overflow-x:auto;padding:16px 14px}
  .info svg{min-width:540px}
  .info::after{content:"scroll to see all of it >";display:block;font-family:'Mono';font-size:10px;color:var(--mut);text-align:right;margin-top:8px}
@@ -166,10 +201,12 @@ main{padding:0 0 130px;min-width:0}
 </style>
 </head>
 <body>
-<div class="mnav"><a href="#t1" style="--tc:#3D6BFF"><img src="img/emblem-1-key.png" alt="">Own Your Rails</a><a href="#t2" style="--tc:#35E06A"><img src="img/emblem-2-dollar.png" alt="">The Money Machine</a><a href="#t3" style="--tc:#FF3D9A"><img src="img/emblem-3-tag.png" alt="">Productize What You Know</a><a href="#t4" style="--tc:#FF7A1A"><img src="img/emblem-4-loop.png" alt="">The Systems</a><a href="#t5" style="--tc:#A24BFF"><img src="img/emblem-5-arrow.png" alt="">The Pivot Playbook</a><a href="#t6" style="--tc:#E7B24E"><img src="img/emblem-6-crown.png" alt="">The Sellable Asset</a></div>
+<div class="mnav"><a href="#" id="cheatOpenM" class="cheat-m"><img src="img/emblem-cheat.png" alt="">Cheat Sheet</a><a href="#t1" style="--tc:#3D6BFF"><img src="img/emblem-1-key.png" alt="">Own Your Rails</a><a href="#t2" style="--tc:#35E06A"><img src="img/emblem-2-dollar.png" alt="">The Money Machine</a><a href="#t3" style="--tc:#FF3D9A"><img src="img/emblem-3-tag.png" alt="">Productize What You Know</a><a href="#t4" style="--tc:#FF7A1A"><img src="img/emblem-4-loop.png" alt="">The Systems</a><a href="#t5" style="--tc:#A24BFF"><img src="img/emblem-5-arrow.png" alt="">The Pivot Playbook</a><a href="#t6" style="--tc:#E7B24E"><img src="img/emblem-6-crown.png" alt="">The Sellable Asset</a></div>
+<div class="csmodal" id="csModal" role="dialog" aria-modal="true" aria-label="Cheat sheet" hidden><div class="cs-scrim" id="csScrim"></div><div class="cs-inner"><button class="cs-close" id="csClose" type="button">Close</button><div class="cs-head"><span class="cs-tag">The cheat sheet</span><h2>Little tricks that change how you work</h2><p>Keep this open in the corner. These are the small moves that make the computer feel like it works for you. Tap any copy button to grab a line, then paste it right into your prompt.</p></div><section class="csgroup"><h3>Talk, do not type</h3><div class="csitems"><div class="csrow"><span class="cs-key">Windows: Win + H</span><span class="cs-v">Turns on voice typing. Talk and it types wherever your cursor is, even into Claude. Built into Windows, nothing to download.</span></div><div class="csrow"><span class="cs-key">Mac: press the Globe or Fn key twice</span><span class="cs-v">Turns on Dictation. Talk instead of type. Switch it on once in System Settings, Keyboard, Dictation.</span></div><div class="csrow"><span class="cs-key">Speak in full sentences</span><span class="cs-v">Talk to it like a person. Say new line or period out loud and it punctuates for you.</span></div><div class="csrow"><span class="cs-key">Your phone counts too</span><span class="cs-v">The little mic on your phone keyboard works everywhere. A long prompt is easier said than thumbed.</span></div></div></section><section class="csgroup"><h3>Keys that change your life</h3><div class="csitems"><div class="csrow"><span class="cs-key">Copy and paste</span><span class="cs-v">Ctrl+C then Ctrl+V on Windows, Cmd+C then Cmd+V on Mac. You will copy prompts all day.</span></div><div class="csrow"><span class="cs-key">Undo anything</span><span class="cs-v">Ctrl+Z on Windows, Cmd+Z on Mac. The universal take-it-back.</span></div><div class="csrow"><span class="cs-key">Find on a page</span><span class="cs-v">Ctrl+F or Cmd+F, then type what you are hunting for.</span></div><div class="csrow"><span class="cs-key">Screenshot to show Claude</span><span class="cs-v">Win+Shift+S on Windows, Cmd+Shift+4 on Mac. Then paste the picture into Claude so it sees exactly what you see.</span></div><div class="csrow"><span class="cs-key">Switch apps fast</span><span class="cs-v">Alt+Tab on Windows, Cmd+Tab on Mac. Hold it to flip between windows.</span></div><div class="csrow"><span class="cs-key">In the terminal: Up arrow</span><span class="cs-v">Brings back your last command so you never retype it. Ctrl+C stops whatever is running.</span></div></div></section><section class="csgroup"><h3>Claude Code moves</h3><div class="csitems"><div class="csrow"><span class="cs-key">/init</span><span class="cs-v">Makes a CLAUDE.md so Claude remembers your rules every session. Do it once per project.</span></div><div class="csrow"><span class="cs-key">/clear</span><span class="cs-v">Start fresh when the chat gets long or confused. Wipes the slate so it stops looping.</span></div><div class="csrow"><span class="cs-key">/compact</span><span class="cs-v">Chat getting long? This sums the whole thing up and keeps going, so it does not forget how you started.</span></div><div class="csrow"><span class="cs-key">Esc, or Ctrl+C</span><span class="cs-v">Stop Claude the second it heads the wrong way. Do not let it run off with your files.</span></div><div class="csrow"><span class="cs-key">Name the file</span><span class="cs-v">Say &#x27;in the-room.html...&#x27; so it edits the exact right page, every time.</span></div></div></section><section class="csgroup"><h3>Keep the AI honest (so it does not make things up)</h3><div class="csitems"><div class="csrow cs-prompt"><div class="cs-k">When you need the truth</div><div class="cs-v">Paste this into your prompt.</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">If you are not sure, say so. Do not guess or make anything up.</code></div></div><div class="csrow cs-prompt"><div class="cs-k">Stop it inventing things</div><div class="cs-v">Grounds it in your real work.</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">Only use what is actually in my files. Do not invent file names, numbers, or facts.</code></div></div><div class="csrow cs-prompt"><div class="cs-k">Make it show its receipts</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">Tell me the exact file and line you are basing this on.</code></div></div><div class="csrow cs-prompt"><div class="cs-k">Make it check itself</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">Before you answer, double-check your work and flag anything you are unsure about.</code></div></div></div></section><section class="csgroup"><h3>Keep it on track (so it does not drift or forget)</h3><div class="csitems"><div class="csrow cs-prompt"><div class="cs-k">Load the full picture first</div><div class="cs-v">Best first line of a big session.</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">Before we start, read CLAUDE.md and the files we are working on so you have the full context.</code></div></div><div class="csrow cs-prompt"><div class="cs-k">Plan before it touches anything</div><div class="cs-v">Stops runaway changes.</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">Make a plan first and show it to me. Do not change any files until I say go.</code></div></div><div class="csrow cs-prompt"><div class="cs-k">One thing at a time</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">Change only the one thing I asked. Do not touch anything else.</code></div></div><div class="csrow cs-prompt"><div class="cs-k">Do not lose the thread</div><div class="cs-v">When it feels lost, this pulls it back.</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">Summarize what we have done and what is left, so we both keep the thread.</code></div></div><div class="csrow cs-prompt"><div class="cs-k">When it drifts</div><div class="cs-v">Say this, or just /clear and start clean.</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">You have drifted from what I asked. Here is the goal again:</code></div></div></div></section><section class="csgroup"><h3>Make it prove it</h3><div class="csitems"><div class="csrow cs-prompt"><div class="cs-k">Do not trust &#x27;done&#x27;</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">After the change, check that it actually works and tell me how you checked.</code></div></div><div class="csrow cs-prompt"><div class="cs-k">Small first</div><div class="cs-snipwrap"><button class="cs-copy" type="button">Copy</button><code class="cs-snip">Do the smallest version first. We can add more once it works.</code></div></div></div></section></div></div>
 <div class="wrap">
 <aside>
   <div class="brand">THE OWNERSHIP ACADEMY<small>Built for Jackson Myles</small></div>
+  <button class="cheatbtn" id="cheatOpen" type="button"><img src="img/emblem-cheat.png" class="cb-emb" alt=""><span class="cb-txt"><span class="cb-t">The Cheat Sheet</span><span class="cb-s">quick tricks and prompts</span></span></button>
   <nav><a href="#t1" style="--tc:#3D6BFF"><img src="img/emblem-1-key.png" alt="" class="ni-emb"><span class="nt">Own Your Rails</span></a><a href="#t2" style="--tc:#35E06A"><img src="img/emblem-2-dollar.png" alt="" class="ni-emb"><span class="nt">The Money Machine</span></a><a href="#t3" style="--tc:#FF3D9A"><img src="img/emblem-3-tag.png" alt="" class="ni-emb"><span class="nt">Productize What You Know</span></a><a href="#t4" style="--tc:#FF7A1A"><img src="img/emblem-4-loop.png" alt="" class="ni-emb"><span class="nt">The Systems</span></a><a href="#t5" style="--tc:#A24BFF"><img src="img/emblem-5-arrow.png" alt="" class="ni-emb"><span class="nt">The Pivot Playbook</span></a><a href="#t6" style="--tc:#E7B24E"><img src="img/emblem-6-crown.png" alt="" class="ni-emb"><span class="nt">The Sellable Asset</span></a></nav>
   <div class="aside-foot">Ground zero to power user.<br>Your work. Your rails. Your name.<br><br><b>Love always wins.</b></div>
 </aside>
@@ -1143,6 +1180,25 @@ document.querySelectorAll('.ytf').forEach(function(f){
     t.replaceWith(ifr);
   });
 });
+(function(){
+  var csM=document.getElementById('csModal'); if(!csM) return;
+  function openCS(e){if(e)e.preventDefault();csM.hidden=false;document.body.style.overflow='hidden';}
+  function closeCS(){csM.hidden=true;document.body.style.overflow='';}
+  var o=document.getElementById('cheatOpen'); if(o)o.addEventListener('click',openCS);
+  var om=document.getElementById('cheatOpenM'); if(om)om.addEventListener('click',openCS);
+  var c=document.getElementById('csClose'); if(c)c.addEventListener('click',closeCS);
+  var sc=document.getElementById('csScrim'); if(sc)sc.addEventListener('click',closeCS);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!csM.hidden)closeCS();});
+  document.querySelectorAll('.cs-copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var s=b.parentElement.querySelector('.cs-snip');
+      navigator.clipboard.writeText(s.innerText).then(function(){
+        b.textContent='Copied';b.classList.add('done');
+        setTimeout(function(){b.textContent='Copy';b.classList.remove('done');},1600);
+      });
+    });
+  });
+})();
 var links=[].slice.call(document.querySelectorAll('nav a'));
 var secs=links.map(function(a){return document.querySelector(a.getAttribute('href'));});
 window.addEventListener('scroll',function(){
